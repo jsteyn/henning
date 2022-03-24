@@ -1,0 +1,2 @@
+document.write("<hr color=navy>");
+document.write("<p class='Voetnota'>Die inhoud van hierdie bladsy is die eiendom van die Peter Henrich Henning Familiebond (2020) | The contents of this page belongs to the Peter Henrich Henning Family League (2020)</p>");

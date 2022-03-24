@@ -1,0 +1,85 @@
+BODY
+{
+    FONT-SIZE: 12px;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial
+}
+.Voetnota
+{
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial
+}
+A
+{
+    COLOR: mediumblue;
+    TEXT-DECORATION: none
+}
+A:hover
+{
+    TEXT-DECORATION: underline
+}
+A:visited
+{
+    COLOR: #000099
+}
+H1
+{
+    FONT-FAMILY: 'Comic Sans MS';
+    TEXT-ALIGN: center
+}
+A.keuseitem
+{
+    FONT-SIZE: 12px;
+    FONT-FAMILY: Verdana, Arial
+}
+P
+{
+    FONT-FAMILY: Verdana, Arial
+}
+H2
+{
+    FONT-FAMILY: 'Comic Sans MS'
+}
+H3
+{
+    FONT-FAMILY: 'Comic Sans MS'
+}
+.Foto-byskrif
+{
+    FONT-SIZE: 9px
+}
+P.indent
+{
+    MARGIN-LEFT: 30px;
+    MARGIN-RIGHT: 30px
+}
+P.indent2
+{
+    MARGIN-LEFT: 30px;
+    TEXT-INDENT: -30px;
+    MARGIN-RIGHT: 30px
+}
+TD.submenu
+{
+    FONT-SIZE: 14px;
+    FONT-FAMILY: 'Comic Sans MS'
+}
+TD.inlig
+{
+    FONT-SIZE: 14px;
+    FONT-FAMILY: Verdana, Arial
+}
+td p {
+	font-size:12;
+}
+.topAlign {
+	vertical-align: top;
+}
+.rooiraam {
+	border-style: solid;
+	border-width: 2px;
+	border-color: red;
+	background-color: #FFdddd;
+	padding: 4px;
+	margin: 4px;
+}
