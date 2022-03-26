@@ -1,0 +1,122 @@
+<html>
+<head>
+<title>Henning Families Worldwide</title>
+<link rel="stylesheet" href="henning.css" type="text/css" />
+<style>
+caption {
+	caption-side: top;
+	font-size: 14px;
+	font-weight: bold;
+	text-align:left;
+}
+</style>
+</head>
+<body>
+<?php
+include 'menu.php'
+?>
+<h1>HENNINGWAPENS</h1>
+<p>
+<a href="ger-henningwapens.php" title="Henningwappen">Deutsch</a>&nbsp;|&nbsp;<a href="eng-henningwapens.php" title="Henning">English</a>
+</p>
+<p>Dit het algemene gebruik geword by die ridders van die middeleeue om hul persoonlike kenteken op die skild wat hulle gedra het, aan te bring. Uit hierdie gebruik het familiewapens sy ontstaan gehad.
+</p>
+<p>Familiewapens het in die tweede helfte van die twaalfde eeu in Europa ontstaan.  Die behoefte by die mens om  sy persoonlikheid deur middel van &#8216;n simbool te identifiseer, is egter so oud soos die mensdom self. 
+</p>
+<p>Ons is tans bewus van slegs drie families &mdash; een in Suid-Afrika en twee in Duitsland wat spesifieke familiewapens gebruik. Verskeie Henning/ Hennings/ Hennig wapens het egter deur die eeue ontstaan.  In die gesaghebbende publikasie  "Armorial G&eacute;n&eacute;ral" deur J B Rietstap, wat deur Rolland ge&iuml;llustreer is, verskyn daar nie minder as 112&nbsp;000 familiewapens, waarvan elf (11) as Henning/ Hennings/ Hennig wapens geidentifiseer is. Hierdie wapens word ook vertoon.
+</p>
+<h1>WAPENS WAT TANS DEUR SPESIFIEKE HENNING FAMILIES GEBRUIK WORD  </h1>
+
+<table><tr>
+<caption>Peter Henrich Henning Familiebond</caption>
+<td><img src="staticpages/images/wapens/henningwapen.jpg"> </td>
+<td><p>Die wapen van die Peter Henrich Henning Familiebond van Suid-Afrika. Hierdie wapen is amptelik by die Staatsheraldikus van Suid-Afrika geregistreer (Goewermentskennisgewing no 1353 in Staatskoerant 9791 van 21 Junie 1985). Die simboliek van die wapen word op die webbladsye van die Familiebond verstrek &#8212; Hoofstuk 1 van die Geslagsregister van die Hennings van Suid-Afrika</p> </td>
+</tr></table>
+
+<table><tr>
+<caption>Die Henning familie wat te Demmin en Karnin, Duitsland gewoon het</caption>
+<td><img src="staticpages/images/wapens/henning_demmin.jpg"></td>
+<td><p>Die Henning familie wat hierdie wapen vanaf die Middeleeue, tot vandag toe gebruik, het oorspronklik gewoon te Demmin in die omgewing van Stralsund en Greiffswalt, Mecklenburg-Vorpommern,Duitsland, en later te Karnin (naby Stralsund). Tot en met die 30-jarige Oorlog (1618 &#8211; 1648) het hierdie gebiede in die grondgebied van Denemarke geval. Dit is die gebied waar die naam Henning teen ongeveer 1290 ontstaan het. Vergelyk hierdie wapen met die wapen hier onder met naam, Henning, Allem (agne)</p></td>
+</tr></table>
+
+<table><tr>
+<caption>Die HENNING en VON HENNING nasate van Laurentius Henning van Rudolstadt.</caption>
+<td><img src="staticpages/images/wapens/henning_laurentius.jpg"></td>
+<td><p>
+Laurentius Henning (* Rudolstadt 28-3-1602) was die oudste seun van Caspar Henning (*1575) wat teen die einde van die sestiende eeu  van Frankenhausen gekom en hom te Rudolstadt (Duitsland) gevestig het.
+</p><p>
+Laurentius is gedurende 1660 tot die adelstand in Wenen toegelaat en het dus die reg gekry om die naam "VON HENNING AUF SCH&Ouml;NHOFF" en die familiewapen hiernaas te gebruik. Hy en sy nasate het tot die Pruisiese milit&ecirc;re adelstand behoort.  Die geslagsregister van hierdie familie word onder die hofie "Genealogie", "Duitsland", <a href="/pdfs/VonHenningStamboom.pdf" title="Skakel na Von Henning geslagsregister" target="_blank">"Deutschland 2"</a> gevind.
+</p><p>
+Vergelyk hierdie wapen met die wapen hieronder met naam, "Henning de Sch&ouml;nhoof, Prusse"
+</p></td>
+</tr>
+</table>
+<h1>ANDER HENNING/ HENNINGS/ HENNIG WAPENS WAT OPGESPOOR IS </h1>
+<p>Henning / Hennings/ Hennig wapens wat in Rietstap se naslaanwerke opgeneem is</p>
+<p>
+<table style="width:100%"><tr>
+	 <caption>Henning. Silesie. Riga. N&oacute;rdlin</caption>
+	 <td style="border: 1 solid black;"><img src="staticpages/images/wapens/henning_silesie.jpg"></td> 
+	 <td style="width:100%">Die Henning familie wat hierdie wapen gebruik het, het gewoon in die gebiede wat vandag in die grondgebied van Pole en Latvia val.</td>
+</tr></table>
+</p><p>
+<table style="width:100%"><tr>
+	<caption>Henning. Courlande</caption>
+	<td><img src="staticpages/images/wapens/henning_courlande.jpg"></td>
+	<td>Die Henning familie wat hierdie wapen gebruik het, het gewoon in die gebied wat  vandag in die grondgebied van Latvia val.</td>
+</tr></table>
+</p><p>
+<table style="width:100%"><tr>
+	<caption>Henning de Sch&ouml;nhoff. Prusse</caption>
+	<td><img src="staticpages/images/wapens/henning_schonhoff.jpg"></td>
+	<td>Die Pruisiese familie wat hierdie wapen gebruik het, het gewoon in die gebied wat vandag in die grondgebied van Duitsland val</td>
+</tr></table>
+</p><p>
+<table style="width:100%"><tr>
+	<caption>Henning de Wassem. P. de Cologne</caption>
+	<td><img src="staticpages/images/wapens/henning_dewassem.jpg"></td>
+	<td>Die familie wat hierdie wapen gebruik het, het in die omgewing van Keulen, Duitsland gewoon</td>
+</tr></table>
+</p><p>
+<table style="width:100%"><tr>
+	<caption>Henning. Allem (agne)[Duitsland]</caption>
+	<td><img src="staticpages/images/wapens/henning_allem.jpg"></td>
+	<td>Hierdie wapen stem ooreen met die wapen wat deur die Henning familie van Demmin/ Karnin (hier bo) gebruik word. </td>
+</tr></table>
+</p><p>
+<table style="width:100%"><tr>
+	<caption> Hennings. Pom</caption>
+	<td><img src="staticpages/images/wapens/henning_pom.jpg"></td>
+	<td>Let op dat hierdie familie hulle van as Hennings aandui. Pom is in alle waarskynlikheid die afkorting vir Pommern </td>
+</tr></table>
+</p><p>
+<table style="width:100%"><tr>
+	<caption>Hennings. Brunswick (Orig. de Dan)</caption>
+	<td><img src="staticpages/images/wapens/henning_brunswick.jpg"></td>
+	<td>Nog 'n Hennings familie. Oorspronklik van Denemarke</td>
+</tr></table>
+</p><p>
+<table style="width:100%"><tr>
+	<caption>Hennig de Hennisky. Allem</caption>
+	<td><img src="staticpages/images/wapens/henning_de_hennisky.jpg"></td>
+	<td>Hierdie familie het in Duitsland gewoon. In alle waarskynlikheid 'n variasie van die Henning wapen van die Demmin/ Karnin Henning familie.
+</td>
+</tr></table>
+</p><p>
+<table style="width:100%"><tr>
+	<caption>Hennig. Bav.</caption>
+	<td><img src="staticpages/images/wapens/henning_bav1.jpg"><img src="staticpages/images/wapens/henning_bav2.jpg"></td>
+	<td>Twee variasies van die wapen wat 'n Hennig familie van Bavaria, Duitsland gebruik het
+</td>
+</p><p>
+</tr></table>
+<table style="width:100%"><tr>
+	<caption>Hennig. Prusse</caption>
+	<td><img src="staticpages/images/wapens/henning_prusse.jpg"></td>
+	<td>Die wapen van 'n Hennig familie van Pruise (vandag deel van Duitsland)</td>
+</tr></table>
+</p>
+
+
+</body>
+</html>

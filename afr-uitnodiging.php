@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Henning Families Worldwide</title>
+<link rel="stylesheet" href="henning.css" type="text/css" />
+</head>
+<body>
+<?php
+include 'menu.php'
+?>
+<h1>Uitnodiging </h1>
+<a href="eng-uitnodiging.php">English</a><br/>
+<p>Ons glo dat u van die bestaan van die PETER HENRICH HENNING FAMILIEBOND bewus is. Dit is 'n Bond  uit die HENNINGs vir die HENNINGs. Omdat ons baie trots op ons familiebond se prestasies is en u graag as lid daarvan wil werf, wil ons aan u meedeel wat die familiebond al sedert sy stigting gedurende 1984 vermag het: </p>
+<ol>
+<li>Ons bou die HENNING geslagregister en familiegeskiedenis wat opgestel is, voortdurend uit, deur alle nuwe informasie by te werk. Ongelukkig is die derde oplaag van die Henning Familiekroniek reeds uitverkoop. Ons het egter 'n rekenaarlaseskyf (CD) met die Familiekroniek, wat op datum gehou word, beskikbaar. </li>
+<li>Ons het die HENNING familiewapen by die Staatsheraldikus geregistreer. Die HENNINGs is een van min Suid-Afrikaanse families wat 'n geregistreerde wapen het. </li>
+<li>Ons het sedert die stigting van die familiebond elke kwartaal 'n nuusbrief uitgegee en beoog om daarmee vol te hou. In die nuusbrief word alle nuuswaardige berigte wat vir die HENNINGs van belang is, gepubliseer. </li>
+<li>Ons het skryfblokke en 'n hele aantal aandenkings soos teelepels, suikerlepels, mansjetknope, ensovoorts met die HENNINGwapen op laat vervaardig en verkoop dit sonder winsbejag aan ons lede. </li>
+<li>Ons het reeds verskeie landwye HENNINGfamiliefeeste op verskillende plekke reg oor Suid-Afrika gehou. Dit was elke keer 'n reuse sukses. </li>
+<li>Ons het die HENNINGfamilie verskeie kere oor die radio bekendgestel. </li>
+<li>Ons het ons eie HENNINGfamiliemuseum te Aliwal-Noord tot stand gebring. </li>
+<li>Ons het 'n Webwerf op Internet geskep, waar inligting oor die Familiebond, asook geskiedenis en geslagsregister van die Hennings beskikbaar is, vir enige persoon reg oor die w&ecirc;reld om te raadpleeg.</li>
+</ol>
+<p>Ten spyte van dit wat ons al vermag het, waarin ons lede ten volle gedeel het, het ons nog verskeie doelwitte en ideale, waarvan die belangrikste sekerlik die instandhouding van ons geslagsregister, familiegeskiedenis en familiemuseum is. </p>
+<p>Om dit alles te vermag, het ons egter die ondersteuning van alle HENNINGs - U INKLUIS - nodig. Hoe meer lede ons het, hoe makliker is dit om ons verpligtinge na te kom. Die enigste verpligting wat lidmaatskap vir u inhou is dat 'n lidmaatskapfooi betaal moet word. U bepaal self watter bedrag u jaarliks wil bydra. Tans skenk lede jaarliks bedrae van  tussen R60.00 en R300.00. Daar is egter lede wat groter bydraes maak, maar daar is ook lede wat kleiner bedrae bydra, weens die feit dat hulle nie meer kan bekostig nie.    Ons sou graag wou gesien het dat lidmaatskap gratis moes wees, dog  in hierdie duur tye waarin ons lewe, is dit nie moontlik nie. Net die administrasie van die familiebond - briewe, se&euml;ls, koeverte, die nuusbrief, rekenaar, drukker, kopieerder, ensovoorts - verg groot bedrae geld. </p>
+<p>Ons glo dat afgesien van die direkte voordele wat uself uit lidmaatskap kry, ons HENNING nageslag die grootste voordele uit die familiebond sal put - byvoorbeeld die HENNINGmuseum en die opteken van die HENNINGgeskiedenis. </p>
+<p>Hiermee saam vind u 'n aansoekvorm. Moet asseblief nie huiwer om telefonies met my in verbinding te tree indien u enige navraag het nie. Nadat u aangesluit het sal 'n lidmaatskapsertifikaat met die HENNINGwapen in volkleur en ander tersaaklike dokumente aan u gestuur word. Ons wil werklik 'n beroep op u doen om hierdie verdienstelike saak te ondersteun. </p>
+<p>Met vriendelike groete</p>
+<p>OLIVIER HENNING: BONDSEKRETARIS </p>
+
+
+</body>
+</html>

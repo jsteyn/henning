@@ -1,0 +1,125 @@
+<html>
+<head>
+<title>Henning Families Worldwide</title>
+<link rel="stylesheet" href="henning.css" type="text/css" />
+</head>
+<body>
+<?php
+include 'menu.php'
+?>
+<h1>Kennisgewingbord | Notice Board </h1>
+Index: <a href="#notice1">1</a>&nbsp;<a href="#notice2">2</a>&nbsp;<a href="#notice3">3</a>&nbsp;<a href="#notice4">4</a>&nbsp;<a href="#notice5">5</a><br/>
+
+<a name="notice1">[1]</a><br/>
+<b style="color:red">AFRIKAANS</b><br/>
+<p>Daar word dringend gesoek na Willem Jacobus Lubbe Henning, gebore 10-4-1983 of sy ouers, Willem Jacobus Henning * 19-9-1952 and Maria Magdalena (gebore Lubbe) * 28-7-1956. Hierdie versoek spruit voort uit die volgende brief wat ons van Nelleke Langerak, 'n Doktorale Student aan die Universiteit van Kaapstad ontvang het</p>
+ 
+<br/>
+> I'm busy with a long-term follow-up study on cerebral palsy patients who
+<br/>
+> received a neurosurgical (rhizotomy) operation between 1981 and 1991. This
+<br/>
+> operation is pioneered in Cape Town and is used now all of the world. Lots
+<br/>
+> of research has been done on children, but nobody knows what happens when
+<br/>
+> the children become adults.
+>
+<br/>
+> Since we started this operation we are the only ones who can give an answer
+<br/>
+> to this question. Since I have only some names and date of births, it is
+<br/>
+> quite a challenge to find these persons.
+>
+<br/>
+> So I did my search on your database and YES, I found Willem Jacobus (Lubbe)
+<br/>
+> Henning, with date of birth 10 April 1983. His 'Genealogiese no.' is
+<br/>
+> b7.c5.d1.e4.f4.g1.h2. 
+ 
+<br/>
+> I really hope that you can help me to contact him or his parents. This is
+<br/>
+> very important for my PhD, but mostly for the clinicians and parents of the
+<br/>
+> children for whom they have to decide to give or not to give this operation.
+<br/>
+> Thank you very much!
+ 
+<p>Kontak asseblief vir Olivier Henning, die Bondsekretaris van die Henning Familiebond: olie4@henning.org of Telefoon/Faks 028 840 0113 of Selfoon 082 355 3801</p>
+ 
+<b style="color:red">ENGLISH</b><br/>
+
+
+
+<p>We are urgently looking for Willem Jacobus Lubbe Henning, born 10-4-1983 or his parents, Willem Jacobus Henning * 19-9-1952 and Maria Magdalena (born Lubbe) * 28-7-1956. This request originated from a letter we received from Nelleke Langerak, a student busy with his Doctors degree at the University of Cape Town</p>
+
+<br/>
+> I'm busy with a long-term follow-up study on cerebral palsy patients who
+<br/>
+> received a neurosurgical (rhizotomy) operation between 1981 and 1991. This
+<br/>
+> operation is pioneered in Cape Town and is used now all of the world. Lots
+<br/>
+> of research has been done on children, but nobody knows what happens when
+<br/>
+> the children become adults.
+>
+<br/>
+> Since we started this operation we are the only ones who can give an answer
+<br/>
+> to this question. Since I have only some names and date of births, it is
+<br/>
+> quite a challenge to find these persons.
+>
+<br/>
+> So I did my search on your database and YES, I found Willem Jacobus (Lubbe)
+<br/>
+> Henning, with date of birth 10 April 1983. His 'Genealogiese no.' is
+<br/>
+> b7.c5.d1.e4.f4.g1.h2.
+>
+<br/>
+> I really hope that you can help me to contact him or his parents. This is
+<br/>
+> very important for my PhD, but mostly for the clinicians and parents of the
+<br/>
+> children for whom they have to decide to give or not to give this operation.
+<br/>
+> Thank you very much!
+
+<p>Please contact Olivier Henning, the League Secretary of the Henning Family League: olie4@henning.org or Telephone/Fax 028 840 0113 or Cell Phone 082 355 3801 </p>
+
+<hr/>
+
+<a name="notice2">[2]</a><br/>
+---------------------------- Original Message ----------------------------<br/>
+From: Jared Henning <br/>
+Sent: 19 Oktober 2007 02:06<br/>
+Subject: Origin<br/>
+--------------------------------------------------------------------------<br/>
+ <p>
+I was looking for the origin of my family.  My great great grandfathers name was Frank (Francis) Henning. He was born June 03, 1841 in Germany to a Theresa Vogt and Charlie Henning.  I would be interested in learning any information!
+</p>
+<hr/>
+<a name="notice3">[3]</a><br/>
+---------------------------- Original Message ----------------------------<br/>
+Subject: henning's in Chile , Südamerika<br/>
+From:    "Enrique Henning Lüer"<br/>
+Date:    Fri, February 3, 2006 1:30 am<br/>
+--------------------------------------------------------------------------<br/>
+<p>
+grüsse von Chile , meine Familie ist 1880 nach Chile
+gekommen, mein Urgrossvater hies Adalbert Henning, wenn Ihr an unsere
+Familie interessiert sin d, könnte ich mehr information senden. Bis bald.</p>
+
+<hr/>
+<a name="notice5">[4]</a><br/>
+<p> Jean Georges Frederick Henning (born 1776 in Berlin) married Madeleine Elizabeth Helene Koenig in 1802. Their son, Johann Friedrich emigrated to Australia in 1849. Any information on the ancestors or brothers and sisters of Jean Georges Frederick Henning would be appreciated.
+David Anderson, Rosebank Farm, NSW, Australia. E Mail: gwerna@bigpond.com 
+</p>
+
+</body>
+</html>
