@@ -1,45 +1,23 @@
-<html>
-<head>
-  <link rel="shortcut icon" type="image/x-icon" href="HenningLogo.ico" />
-	<title>Henning Families Worldwide</title>
-	<link rel='stylesheet' type='text/css' href='henning.css' />
-	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
-	<style>
-		#container {
-			position:fixed;
-			top: 80px;
-			width:102px;
-			margin: 0 0 0 0;
-		}
-		#main {
-			position:absolute;
-			width: 100px;
-			height: 320px;
-			left:0;
-			top:0;
-		}
-		#minor {
-			position:absolute;
-			width: 100px;
-			left:0;
-			top:320px;
-		}
-	</style>
-</head>
-<body>
-<?php include_once("analyticstracking.php") ?>
-<h1>HENNING FAMILIES</h1>
+---
+title: Henning Families Worldwide
+layout: default
+---
 <div id="container">
-<a href="afr-henning.php"><img id="main" src="images/bannier_finaal.jpg" border=0></a>
-<a href="afr-henningwapens.php"><img id="minor" width=100px src="images/Henning-klein.jpg" border=0></a>
+<a href="afr-henning.html"><img id="main" src="images/bannier_finaal.jpg" border=0></a>
+<a href="afr-henningwapens.html"><img id="minor" width=100px src="images/Henning-klein.jpg" border=0></a>
 </div>
-<table>
+<table border=0>
+<tr colspan=4>
+  <td> </td>
+  <td colspan=3>
+  <span style="font-weight:bold;font-size:xx-large">HENNING FAMILIES</span>
+  </td>
+</tr>
 <tr>
 <td width="100px" border=1>
 <img src="images/blank.png">
 </td>
 <td style='border: 3px red solid;width:33%;background:#FFE6E6'>
-<?php include 'menu_eng.php' ?>
 <p><b>Welcome in the world of Henning families world wide!</b></p>
 <p>
 Although this web site is the property of the Henning Family League of South Africa, it contains information on the history  and family trees of Henning families in countries from which information have been received.
@@ -58,9 +36,6 @@ Tel: +27-(0)82 355 3801
 </table>
 
 </td><td style='border: 3px blue solid;width:33%;background:#D6EBFF'>
-<?php
-include 'menu_afr.php'
-?>
 <p><b>Welkom in die w&ecirc;reld van die Henning families w&ecirc;reldwyd!</b></p>
 <p>
 Hoewel hierdie webwerf die eiendom van die Henning Familiebond van Suid-Afrika is, bevat dit gegewens oor die geskiedenis en geslagsregisters van Henning families in ander lande, waarvan ons besonderhede ontvang het.
@@ -78,9 +53,6 @@ Tel: +27-(0)82 355 3801
 </table>
 
 </td><td style='border: 3px black solid;width:33%;background:#F1F1F1'>
-<?php
-include 'menu_deu.php'
-?>
 <p><b>Willkommen in der Welt der Henning Familien weltweit!</b></p>
 
 <p>
@@ -100,6 +72,5 @@ Tel: +27-(0)82 355 3801
 </table>
 
 </td>
+</tr>
 </table>
-</body>
-</html>

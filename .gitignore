@@ -1,1 +1,4 @@
 *.exe
+_site/
+vendor_/
+.jekyll-cache/
