@@ -3,3 +3,4 @@ _site/
 vendor_/
 .jekyll-cache/
 *.pearrc
+desktop.ini
