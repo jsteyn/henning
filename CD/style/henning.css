@@ -36,6 +36,9 @@ P
 {
     FONT-FAMILY: Verdana, Arial
 }
+p:hover {
+	background-color: rgba(240,240,240, 0.7)
+}
 H2
 {
     FONT-FAMILY: 'Comic Sans MS'
@@ -80,6 +83,26 @@ td p {
 	border-width: 2px;
 	border-color: red;
 	background-color: #FFdddd;
-	padding: 4px;
+	padding-left: 4px;
+	padding-right: 4px;
 	margin: 4px;
+}
+marquee a img {
+	border-style: solid;
+	border-color: white;
+}
+marquee a img:hover {
+	border-color: silver;
+}
+.maleLink {
+	color: blue;
+}
+.maleLink:hover {
+	background-color: rgba(232,232,255,0.9);
+}
+.femaleLink {
+	color: firebrick;
+}
+.femaleLink:hover {
+	background-color: rgba(255,232,232,0.9);
 }
