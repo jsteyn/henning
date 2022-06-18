@@ -25,7 +25,7 @@
 <TD>
 <span style="display:">&nbsp;<A href="#Voorgeslagte">Voorgeslagte</A>&nbsp;|</span>
 <span style="display:none">&nbsp;<A href="#Nageslagte">Nageslagte</A>&nbsp;|</span>
-<span style="display:none">&nbsp;<A href="#Fotos">Foto(s)</A></span>
+<span style="display:">&nbsp;<A href="#Fotos">Foto(s)</A></span>
 </TD>
 </TR>
 <TR>
@@ -156,6 +156,56 @@
 <A name='Nageslagte'></A>
 
 <A name='Fotos'></A>
+<SCRIPT language=Javascript>
+//<!--
+function ShowSection (sect) {
+  var osection = document.all(sect);
+  if (osection != null) {
+    if (osection.style.display == "none") 
+    {
+      osection.style.display = "";
+    } else {
+      osection.style.display = "none";
+    }
+    self.navigate ("#" + sect + "l");  
+  }
+} 
+//-->
+</SCRIPT>
+<TABLE border=1 width="100%" borderColorDark=silver borderColorLight=black cellPadding=1 CellSpacing=0 height1="100%" align=center>
+<TR>
+<TH>Fotos</TH>
+</TR>
+<TR>
+<TD>
+<CENTER>
+<TABLE border=2 width="" borderColorDark=silver borderColorLight=black cellPadding=1 CellSpacing=0 >
+<TR>
+<TD>
+<IMG border=0 src="../../../album/B157.jpg" onclick='ShowSection("s673")' class=hand>
+</TD>
+</TR>
+</Table>
+<BR>
+a2.b5.c5.d9.e2.f2.g4. Anna Francina Barkhuizen (gebore Henning) *1-11-1943
+<A name="s673l">
+<BR>
+<SPAN onclick='ShowSection("s673")' class=hand>
+<U>
+<font color=blue>Beskou lys van mense op foto</font>
+</U>
+</SPAN>
+</A>
+<SPAN id='s673' style='display:none'>
+<P>
+<A href="../../../persone/5/7/5737p.htm">Anna Francina Henning</A><BR/>
+</P>
+</SPAN>
+<HR>
+</CENTER>
+</TD>
+</TR>
+</TABLE>
 
 </BODY>
 </HTML>
