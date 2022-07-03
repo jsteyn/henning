@@ -4,3 +4,4 @@ vendor_/
 .jekyll-cache/
 *.pearrc
 desktop.ini
+nuusbriewe/*/Thumbs.db
