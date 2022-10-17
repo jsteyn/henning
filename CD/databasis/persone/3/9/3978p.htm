@@ -25,7 +25,7 @@
 <TD>
 <span style="display:">&nbsp;<A href="#Voorgeslagte">Voorgeslagte</A>&nbsp;|</span>
 <span style="display:">&nbsp;<A href="#Nageslagte">Nageslagte</A>&nbsp;|</span>
-<span style="display:none">&nbsp;<A href="#Fotos">Foto(s)</A></span>
+<span style="display:">&nbsp;<A href="#Fotos">Foto(s)</A></span>
 </TD>
 </TR>
 <TR>
@@ -94,12 +94,12 @@
 <TR>
 <TD><B>Sterfdatum</B></TD>
 <TD bgcolor=black style="width:1px" width=1></TD>
-<TD>&nbsp;</TD>
+<TD>&nbsp;2022-8-22</TD>
 </TR>
 <TR>
 <TD><B>Sterfplek</B></TD>
 <TD bgcolor=black style="width:1px" width=1></TD>
-<TD>&nbsp;</TD>
+<TD>&nbsp;Marble Hall</TD>
 </TR>
 </TABLE>
 </TD>
@@ -194,6 +194,56 @@
 </TABLE>
 
 <A name='Fotos'></A>
+<SCRIPT language=Javascript>
+//<!--
+function ShowSection (sect) {
+  var osection = document.all(sect);
+  if (osection != null) {
+    if (osection.style.display == "none") 
+    {
+      osection.style.display = "";
+    } else {
+      osection.style.display = "none";
+    }
+    self.navigate ("#" + sect + "l");  
+  }
+} 
+//-->
+</SCRIPT>
+<TABLE border=1 width="100%" borderColorDark=silver borderColorLight=black cellPadding=1 CellSpacing=0 height1="100%" align=center>
+<TR>
+<TH>Fotos</TH>
+</TR>
+<TR>
+<TD>
+<CENTER>
+<TABLE border=2 width="" borderColorDark=silver borderColorLight=black cellPadding=1 CellSpacing=0 >
+<TR>
+<TD>
+<IMG border=0 src="../../../album/A211.jpg" onclick='ShowSection("s825")' class=hand>
+</TD>
+</TR>
+</Table>
+<BR>
+a2.b1.c6.d11.e9.f1.g2. Elvy Henning *21-4-1959
+<A name="s825l">
+<BR>
+<SPAN onclick='ShowSection("s825")' class=hand>
+<U>
+<font color=blue>Beskou lys van mense op foto</font>
+</U>
+</SPAN>
+</A>
+<SPAN id='s825' style='display:none'>
+<P>
+<A href="../../../persone/3/9/3978p.htm">Elvy Henning</A><BR/>
+</P>
+</SPAN>
+<HR>
+</CENTER>
+</TD>
+</TR>
+</TABLE>
 
 </BODY>
 </HTML>
