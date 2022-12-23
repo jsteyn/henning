@@ -106,3 +106,32 @@ marquee a img:hover {
 .femaleLink:hover {
 	background-color: rgba(255,232,232,0.9);
 }
+marquee a img {
+    border-radius: 40%;    
+}
+#imgWapen {
+    border-radius: 5;
+}
+#imgWapen2 {
+    border-radius: 5;
+}
+.WapensEnFotos {
+	height : 500px;
+	vertical-align: top;
+	background-image1: url("images/old-paper-texture.jpg");
+}
+.leftAlign {
+	align: left;
+}
+.rightAlign {
+	align: right;
+}
+.splashImg{
+	height: 160px;
+	border-radius: 40%;
+}
+#shadowheading{
+	height:30;
+	color:darkorange;
+	text-align:center
+}
