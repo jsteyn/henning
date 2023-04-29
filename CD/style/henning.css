@@ -2,7 +2,9 @@ BODY
 {
     FONT-SIZE: 12px;
     COLOR: black;
-    FONT-FAMILY: Verdana, Arial
+    FONT-FAMILY: Verdana, Arial;
+    background-imageX: URL(../images/oldpaper.jpg);
+    background-image: URL(../images/watermerk.gif);
 }
 .Voetnota
 {

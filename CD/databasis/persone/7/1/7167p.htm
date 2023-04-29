@@ -25,7 +25,7 @@
 <TD>
 <span style="display:none">&nbsp;<A href="#Voorgeslagte">Voorgeslagte</A>&nbsp;|</span>
 <span style="display:">&nbsp;<A href="#Nageslagte">Nageslagte</A>&nbsp;|</span>
-<span style="display:none">&nbsp;<A href="#Fotos">Foto(s)</A></span>
+<span style="display:">&nbsp;<A href="#Fotos">Foto(s)</A></span>
 </TD>
 </TR>
 <TR>
@@ -130,16 +130,17 @@
 </TR>
 <TR>
 <TD>
-<TABLE border=1 width="100%" borderColorDark=silver borderColorLight=black cellPadding=1 CellSpacing=0 align=center>
+<TABLE border="1" width="100%" borderColorDark="silver" borderColorLight="black" cellPadding="1" CellSpacing="0" align="center">
 <TR>
-<TH colspan=5 align=middle>Kinders</TH>
+<TH colspan="6" align="middle">Kinders</TH>
 </TR>
 <TR>
-<TD style="WIDTH:20px" width=20 class=opskrif><B>No.</B></TD>
-<TD class=opskrif><B>Naam</B></TD>
-<TD class=opskrif><B>Geslag</B></TD>
-<TD class=opskrif><B>Ander ouer</B></TD>
-<TD class=opskrif><B>Geboortedatum</B></TD>
+<TD style="WIDTH:20px" width="20" class="opskrif"><B>No.</B></TD>
+<TD class="opskrif"><B>Naam</B></TD>
+<TD class="opskrif"><B>Geslag</B></TD>
+<TD class="opskrif"><B>Ander ouer</B></TD>
+<TD class="opskrif"><B>Geboortedatum</B></TD>
+<TD class="opskrif"><B>Sterfdatum</B></TD>
 </TR>
 <TR>
 <TD>1</TD>
@@ -147,6 +148,7 @@
 <TD>Vroulik</TD>
 <TD>&nbsp;<A href="../../../persone/7/1/7124p.htm">Jacob Grobler Henning</A></TD>
 <TD>&nbsp;1941-1-19</TD>
+<TD>&nbsp;2019-6-4</TD>
 </TR>
 <TR>
 <TD>2</TD>
@@ -154,6 +156,7 @@
 <TD>Manlik</TD>
 <TD>&nbsp;<A href="../../../persone/7/1/7124p.htm">Jacob Grobler Henning</A></TD>
 <TD>&nbsp;1941-12-30</TD>
+<TD>&nbsp;</TD>
 </TR>
 <TR>
 <TD>3</TD>
@@ -161,6 +164,7 @@
 <TD>Manlik</TD>
 <TD>&nbsp;<A href="../../../persone/7/1/7124p.htm">Jacob Grobler Henning</A></TD>
 <TD>&nbsp;1945-6-8</TD>
+<TD>&nbsp;</TD>
 </TR>
 </TABLE>
 
@@ -220,6 +224,58 @@
 </TABLE>
 
 <A name='Fotos'></A>
+<SCRIPT language=Javascript>
+//<!--
+function ShowSection (sect) {
+  var osection = document.all(sect);
+  if (osection != null) {
+    if (osection.style.display == "none") 
+    {
+      osection.style.display = "";
+    } else {
+      osection.style.display = "none";
+    }
+    self.navigate ("#" + sect + "l");  
+  }
+} 
+//-->
+</SCRIPT>
+<TABLE border=1 width="100%" borderColorDark=silver borderColorLight=black cellPadding=1 CellSpacing=0 height1="100%" align=center>
+<TR>
+<TH>Fotos</TH>
+</TR>
+<TR>
+<TD>
+<CENTER>
+<TABLE border=2 width="" borderColorDark=silver borderColorLight=black cellPadding=1 CellSpacing=0 >
+<TR>
+<TD>
+<IMG border=0 src="../../../album/C229.jpg" onclick='ShowSection("s449")' class=hand>
+</TD>
+</TR>
+</Table>
+<BR>
+a2.b6.c4.d2.e5.f6 Jacob Grobler Henning *7-6-1918, sy dogter, Anna Cornelia *19-1-1941, syvrou, Emmerentia Cornelia (gebore Mc Crate) *10-7-1921 en Anna Cornelia se man, Ron Scholtz
+<A name="s449l">
+<BR>
+<SPAN onclick='ShowSection("s449")' class=hand>
+<U>
+<font color=blue>Beskou lys van mense op foto</font>
+</U>
+</SPAN>
+</A>
+<SPAN id='s449' style='display:none'>
+<P>
+<A href="../../../persone/7/1/7168p.htm">Anna Cornelia Henning</A><BR/>
+<A href="../../../persone/7/1/7167p.htm">Emmerentia Cornelia Mc Crate</A><BR/>
+<A href="../../../persone/7/1/7124p.htm">Jacob Grobler Henning</A><BR/>
+</P>
+</SPAN>
+<HR>
+</CENTER>
+</TD>
+</TR>
+</TABLE>
 
 </BODY>
 </HTML>
