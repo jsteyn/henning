@@ -2,23 +2,29 @@ BODY
 {
     FONT-SIZE: 12px;
     COLOR: black;
-    FONT-FAMILY: Verdana, Arial
+    FONT-FAMILY: Verdana, Arial;    
 }
-P {
+table {
+    border-color: #ccc;
+    border-collapse: collapse;
+}
+p {
     FONT-SIZE: 12px;
     COLOR: black;
     FONT-FAMILY: Verdana, Arial	
 }
-TD {
+td {
     FONT-SIZE: 12px;
     COLOR: black;
-    FONT-FAMILY: Verdana, Arial	
+    FONT-FAMILY: Verdana, Arial;
+    border-color: #ccc;
 }
-TH {
+th {
     FONT-SIZE: 14px;
     COLOR: gold;
     Background: royalblue;
     FONT-FAMILY: Verdana, Arial	
+    border-color: #ccc;
 }
 .hand {
     cursor:hand;
