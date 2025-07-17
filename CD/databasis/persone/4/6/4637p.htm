@@ -214,15 +214,15 @@ Na haar eerste man, Roelof Weideman se dood, trou sy met Jan Andries Henning
 <A name='Voorgeslagte'></A>
 
 <A name='Nageslagte'></A>
-<TABLE border=1 width="100%" borderColorDark=silver borderColorLight=black cellPadding=1 CellSpacing=0 align=center>
+<TABLE border="1" width="100%" borderColorDark="silver" borderColorLight="black" cellPadding="1" CellSpacing="0" align="center">
 <TR>
-<TH>Nageslagte</TH>
+<TH>Nageslagte van Anna Sophia Roux</TH>
 </TR>
 <TR>
 <TD>
-<TABLE width=100% border=0>
+<TABLE width="100%" border="0">
 <TR>
-<TD><B class=femaleLink>Anna Sophia Roux</B></TD>
+<TD><B class="femaleLink">Anna Sophia Roux</B></TD>
 <TD></TD>
 </TR>
 <TR>
@@ -238,19 +238,19 @@ Na haar eerste man, Roelof Weideman se dood, trou sy met Jan Andries Henning
 <TD>&nbsp;</TD>
 </TR>
 <TR>
-<TD>&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/4/6/4645p.htm"><span class=maleLink>Hendrik Stephanus Henning</span></A></TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/4/6/4645p.htm"><span class=maleLink>Hendrik Stephanus Henning (*1899)</span></A></TD>
 <TD>&nbsp;a2.b5.c1.d5.e8.</TD>
 </TR>
 <TR>
-<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/4/7/4762p.htm"><span class=maleLink>Hendrik Stephanus Henning</span></A></TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/4/7/4762p.htm"><span class=maleLink>Hendrik Stephanus Henning (*1930, &#8224;2012)</span></A></TD>
 <TD>&nbsp;a2.b5.c1.d5.e8.f1.</TD>
 </TR>
 <TR>
-<TD>&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/4/6/4646p.htm"><span class=femaleLink>Lea Magdalena Henning</span></A></TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/4/6/4646p.htm"><span class=femaleLink>Lea Magdalena Henning (*1902, &#8224;1956)</span></A></TD>
 <TD>&nbsp;a2.b5.c1.d5.e9.</TD>
 </TR>
 <TR>
-<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/1/1/11934p.htm"><span class=femaleLink>Daphné Henning</span></A></TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/1/1/11934p.htm"><span class=femaleLink>Daphn&eacute; Henning (*1925)</span></A></TD>
 <TD>&nbsp;a1.b5.c1.d5.e9.f1.</TD>
 </TR>
 </TABLE>
@@ -291,18 +291,18 @@ function ShowSection (sect) {
 </Table>
 <BR>
 Anna Sophia Henning (gebore Roux) *C1860, tweede vrou van b5.c1.d5. Jan Andries Henning *1836-01-06
-<A name="s5l">
+<A name="s5l" class="localLink">
 <BR>
-<SPAN onclick='ShowSection("s5")' class=hand>
+<SPAN onclick='ShowSection("s5")' class="hand">
 <U>
-<font color=blue>Beskou lys van mense op foto</font>
+<font color="blue">Beskou lys van mense op foto</font>
 </U>
 </SPAN>
 </A>
 <SPAN id='s5' style='display:none'>
 <P>
-<A href="../../../persone/4/6/4637p.htm">Anna Sophia Roux</A><BR/>
-<A href="../../../persone/4/2/4266p.htm">Jan Andries Henning</A><BR/>
+<A class="localLink" href="../../../persone/4/6/4637p.htm">Anna Sophia Roux</A><BR/>
+<A class="localLink" href="../../../persone/4/2/4266p.htm">Jan Andries Henning</A><BR/>
 </P>
 </SPAN>
 <HR>
@@ -311,5 +311,50 @@ Anna Sophia Henning (gebore Roux) *C1860, tweede vrou van b5.c1.d5. Jan Andries 
 </TR>
 </TABLE>
 
+<script language="Javascript">
+function ShowAncestorGeneration1() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','none');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration2() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration3() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration4() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration5() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','');
+}
+function SetAncestorGenerationDisplay(generation, displayValue) {	
+	var generationClass = "ansestorGen" + generation;	
+	var Ancestors = document.getElementsByClassName(generationClass);
+	for(var i = 0; i < Ancestors.length; i++) {
+		Ancestors[i].parentElement.style.display = displayValue;
+	}
+}
+ShowAncestorGeneration2();
+</script>
 </BODY>
 </HTML>

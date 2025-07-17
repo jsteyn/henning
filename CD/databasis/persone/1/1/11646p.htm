@@ -175,23 +175,23 @@ Hy kom van Gothenburg, Swede
 <A name='Voorgeslagte'></A>
 
 <A name='Nageslagte'></A>
-<TABLE border=1 width="100%" borderColorDark=silver borderColorLight=black cellPadding=1 CellSpacing=0 align=center>
+<TABLE border="1" width="100%" borderColorDark="silver" borderColorLight="black" cellPadding="1" CellSpacing="0" align="center">
 <TR>
-<TH>Nageslagte</TH>
+<TH>Nageslagte van Laars Anderson</TH>
 </TR>
 <TR>
 <TD>
-<TABLE width=100% border=0>
+<TABLE width="100%" border="0">
 <TR>
-<TD><B class=maleLink>Laars Anderson</B></TD>
+<TD><B class="maleLink">Laars Anderson</B></TD>
 <TD></TD>
 </TR>
 <TR>
-<TD>&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/1/1/11648p.htm"><span class=maleLink>Pieter Frederik Anderson</span></A></TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/1/1/11648p.htm"><span class=maleLink>Pieter Frederik Anderson (*1810)</span></A></TD>
 <TD>&nbsp;</TD>
 </TR>
 <TR>
-<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/8/1/8116p.htm"><span class=maleLink>Pieter Frederik Gerhardus Anderson</span></A></TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/8/1/8116p.htm"><span class=maleLink>Pieter Frederik Gerhardus Anderson (*1836)</span></A></TD>
 <TD>&nbsp;</TD>
 </TR>
 </TABLE>
@@ -201,5 +201,50 @@ Hy kom van Gothenburg, Swede
 
 <A name='Fotos'></A>
 
+<script language="Javascript">
+function ShowAncestorGeneration1() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','none');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration2() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration3() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration4() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration5() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','');
+}
+function SetAncestorGenerationDisplay(generation, displayValue) {	
+	var generationClass = "ansestorGen" + generation;	
+	var Ancestors = document.getElementsByClassName(generationClass);
+	for(var i = 0; i < Ancestors.length; i++) {
+		Ancestors[i].parentElement.style.display = displayValue;
+	}
+}
+ShowAncestorGeneration2();
+</script>
 </BODY>
 </HTML>

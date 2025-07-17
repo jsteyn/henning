@@ -163,31 +163,31 @@
 <A name='Voorgeslagte'></A>
 
 <A name='Nageslagte'></A>
-<TABLE border=1 width="100%" borderColorDark=silver borderColorLight=black cellPadding=1 CellSpacing=0 align=center>
+<TABLE border="1" width="100%" borderColorDark="silver" borderColorLight="black" cellPadding="1" CellSpacing="0" align="center">
 <TR>
-<TH>Nageslagte</TH>
+<TH>Nageslagte van Danie Robberts</TH>
 </TR>
 <TR>
 <TD>
-<TABLE width=100% border=0>
+<TABLE width="100%" border="0">
 <TR>
-<TD><B class=maleLink>Danie Robberts</B></TD>
+<TD><B class="maleLink">Danie Robberts</B></TD>
 <TD></TD>
 </TR>
 <TR>
-<TD>&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/8/8/8832p.htm"><span class=femaleLink>Maria Magdalena Robberts</span></A></TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/8/8/8832p.htm"><span class=femaleLink>Maria Magdalena Robberts (*1930)</span></A></TD>
 <TD>&nbsp;</TD>
 </TR>
 <TR>
-<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/8/8/8835p.htm"><span class=femaleLink>Juliana Cicilia Hennig</span></A></TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/8/8/8835p.htm"><span class=femaleLink>Juliana Cicilia Hennig (*1954)</span></A></TD>
 <TD>&nbsp;a3.b1.c2.d3.e1.f3.g2.h1.</TD>
 </TR>
 <TR>
-<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/8/8/8836p.htm"><span class=maleLink>Willem Johannes Hennig</span></A></TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/8/8/8836p.htm"><span class=maleLink>Willem Johannes Hennig (*1957)</span></A></TD>
 <TD>&nbsp;a3.b1.c2.d3.e1.f3.g2.h2.</TD>
 </TR>
 <TR>
-<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/8/8/8837p.htm"><span class=femaleLink>Marietjie Hennig</span></A></TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/8/8/8837p.htm"><span class=femaleLink>Marietjie Hennig (*1960)</span></A></TD>
 <TD>&nbsp;a3.b1.c2.d3.e1.f3.g2.h3.</TD>
 </TR>
 </TABLE>
@@ -197,5 +197,50 @@
 
 <A name='Fotos'></A>
 
+<script language="Javascript">
+function ShowAncestorGeneration1() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','none');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration2() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration3() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration4() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration5() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','');
+}
+function SetAncestorGenerationDisplay(generation, displayValue) {	
+	var generationClass = "ansestorGen" + generation;	
+	var Ancestors = document.getElementsByClassName(generationClass);
+	for(var i = 0; i < Ancestors.length; i++) {
+		Ancestors[i].parentElement.style.display = displayValue;
+	}
+}
+ShowAncestorGeneration2();
+</script>
 </BODY>
 </HTML>

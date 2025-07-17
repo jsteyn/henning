@@ -163,23 +163,23 @@
 <A name='Voorgeslagte'></A>
 
 <A name='Nageslagte'></A>
-<TABLE border=1 width="100%" borderColorDark=silver borderColorLight=black cellPadding=1 CellSpacing=0 align=center>
+<TABLE border="1" width="100%" borderColorDark="silver" borderColorLight="black" cellPadding="1" CellSpacing="0" align="center">
 <TR>
-<TH>Nageslagte</TH>
+<TH>Nageslagte van Sarah Maria Weideman</TH>
 </TR>
 <TR>
 <TD>
-<TABLE width=100% border=0>
+<TABLE width="100%" border="0">
 <TR>
-<TD><B class=femaleLink>Sarah Maria Weideman</B></TD>
+<TD><B class="femaleLink">Sarah Maria Weideman</B></TD>
 <TD></TD>
 </TR>
 <TR>
-<TD>&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/3/2/3202p.htm"><span class=femaleLink>Sarah Elizabeth Aletta Wahlstrand</span></A></TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/3/2/3202p.htm"><span class=femaleLink>Sarah Elizabeth Aletta Wahlstrand (*1834, &#8224;1864)</span></A></TD>
 <TD>&nbsp;</TD>
 </TR>
 <TR>
-<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/3/2/3200p.htm"><span class=femaleLink>Maria Cornelia Botha</span></A></TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/3/2/3200p.htm"><span class=femaleLink>Maria Cornelia Botha (*1860, &#8224;1930)</span></A></TD>
 <TD>&nbsp;</TD>
 </TR>
 </TABLE>
@@ -189,5 +189,50 @@
 
 <A name='Fotos'></A>
 
+<script language="Javascript">
+function ShowAncestorGeneration1() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','none');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration2() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration3() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration4() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration5() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','');
+}
+function SetAncestorGenerationDisplay(generation, displayValue) {	
+	var generationClass = "ansestorGen" + generation;	
+	var Ancestors = document.getElementsByClassName(generationClass);
+	for(var i = 0; i < Ancestors.length; i++) {
+		Ancestors[i].parentElement.style.display = displayValue;
+	}
+}
+ShowAncestorGeneration2();
+</script>
 </BODY>
 </HTML>

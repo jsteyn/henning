@@ -144,39 +144,39 @@
 <A name='Voorgeslagte'></A>
 
 <A name='Nageslagte'></A>
-<TABLE border=1 width="100%" borderColorDark=silver borderColorLight=black cellPadding=1 CellSpacing=0 align=center>
+<TABLE border="1" width="100%" borderColorDark="silver" borderColorLight="black" cellPadding="1" CellSpacing="0" align="center">
 <TR>
-<TH>Nageslagte</TH>
+<TH>Nageslagte van Tobias Casparus Mynhardt</TH>
 </TR>
 <TR>
 <TD>
-<TABLE width=100% border=0>
+<TABLE width="100%" border="0">
 <TR>
-<TD><B class=maleLink>Tobias Casparus Mynhardt</B></TD>
+<TD><B class="maleLink">Tobias Casparus Mynhardt</B></TD>
 <TD></TD>
 </TR>
 <TR>
-<TD>&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/5/3/5307p.htm"><span class=femaleLink>Rachel Elizabeth Mynhardt</span></A></TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/5/3/5307p.htm"><span class=femaleLink>Rachel Elizabeth Mynhardt (*1885, &#8224;1967)</span></A></TD>
 <TD>&nbsp;</TD>
 </TR>
 <TR>
-<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/5/3/5310p.htm"><span class=femaleLink>Gertruida Susanna Henning</span></A></TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/5/3/5310p.htm"><span class=femaleLink>Gertruida Susanna Henning (*1906, &#8224;2007)</span></A></TD>
 <TD>&nbsp;a2.b5.c4.d7.e1.f1.</TD>
 </TR>
 <TR>
-<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/5/3/5314p.htm"><span class=maleLink>Pieter Henry Henning</span></A></TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/5/3/5314p.htm"><span class=maleLink>Pieter Henry Henning (*1907)</span></A></TD>
 <TD>&nbsp;a2.b5.c4.d7.e1.f2.</TD>
 </TR>
 <TR>
-<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/5/3/5311p.htm"><span class=maleLink>Jacobus Tobias Henning</span></A></TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/5/3/5311p.htm"><span class=maleLink>Jacobus Tobias Henning (*1908, &#8224;1991)</span></A></TD>
 <TD>&nbsp;a2.b5.c4.d7.e1.f3.</TD>
 </TR>
 <TR>
-<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/5/3/5312p.htm"><span class=femaleLink>Alida Aletta Henning</span></A></TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/5/3/5312p.htm"><span class=femaleLink>Alida Aletta Henning (*1912)</span></A></TD>
 <TD>&nbsp;a2.b5.c4.d7.e1.f4.</TD>
 </TR>
 <TR>
-<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/5/3/5313p.htm"><span class=femaleLink>Rachel Elizabeth Henning</span></A></TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/5/3/5313p.htm"><span class=femaleLink>Rachel Elizabeth Henning (*1914)</span></A></TD>
 <TD>&nbsp;a2.b5.c4.d7.e1.f5.</TD>
 </TR>
 </TABLE>
@@ -186,5 +186,50 @@
 
 <A name='Fotos'></A>
 
+<script language="Javascript">
+function ShowAncestorGeneration1() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','none');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration2() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration3() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration4() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration5() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','');
+}
+function SetAncestorGenerationDisplay(generation, displayValue) {	
+	var generationClass = "ansestorGen" + generation;	
+	var Ancestors = document.getElementsByClassName(generationClass);
+	for(var i = 0; i < Ancestors.length; i++) {
+		Ancestors[i].parentElement.style.display = displayValue;
+	}
+}
+ShowAncestorGeneration2();
+</script>
 </BODY>
 </HTML>

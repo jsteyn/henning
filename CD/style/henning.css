@@ -2,9 +2,7 @@ BODY
 {
     FONT-SIZE: 12px;
     COLOR: black;
-    FONT-FAMILY: Verdana, Arial;
-    background-imageX: URL(../images/oldpaper.jpg);
-    background-image: URL(../images/watermerk.gif);
+    FONT-FAMILY: Verdana, Arial
 }
 .Voetnota
 {
@@ -15,6 +13,9 @@ A
 {
     COLOR: mediumblue;
     TEXT-DECORATION: none
+}
+a.localLink {
+	cursor : pointer;
 }
 A:hover
 {
@@ -108,6 +109,11 @@ marquee a img:hover {
 .femaleLink:hover {
 	background-color: rgba(255,232,232,0.9);
 }
+A.femaleLink:visited
+{
+    COLOR: rgba(152,24,24,0.8);
+}
+
 marquee a img {
     border-radius: 40%;    
 }
@@ -128,6 +134,10 @@ marquee a img {
 .rightAlign {
 	align: right;
 }
+.bottomAlign {
+	align: bottom;
+	text-align: bottom;
+}
 .splashImg{
 	height: 160px;
 	border-radius: 40%;
@@ -136,4 +146,23 @@ marquee a img {
 	height:30;
 	color:darkorange;
 	text-align:center
+}
+.ansestorGen0 {
+	padding-left:10px;
+}
+.ansestorGen1 {
+	padding-left:100px;
+}
+.ansestorGen2 {
+	padding-left:250px;
+}
+.ansestorGen3 {
+	padding-left:400px;
+}
+.ansestorGen4 {
+	padding-left:500px;
+}
+.ansestorGen5 {
+	padding-left:600px;
+	
 }

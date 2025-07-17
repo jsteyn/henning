@@ -144,19 +144,19 @@
 <A name='Voorgeslagte'></A>
 
 <A name='Nageslagte'></A>
-<TABLE border=1 width="100%" borderColorDark=silver borderColorLight=black cellPadding=1 CellSpacing=0 align=center>
+<TABLE border="1" width="100%" borderColorDark="silver" borderColorLight="black" cellPadding="1" CellSpacing="0" align="center">
 <TR>
-<TH>Nageslagte</TH>
+<TH>Nageslagte van Stefanus Marius Oberholzer</TH>
 </TR>
 <TR>
 <TD>
-<TABLE width=100% border=0>
+<TABLE width="100%" border="0">
 <TR>
-<TD><B class=maleLink>Stefanus Marius Oberholzer</B></TD>
+<TD><B class="maleLink">Stefanus Marius Oberholzer</B></TD>
 <TD></TD>
 </TR>
 <TR>
-<TD>&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/1/2/12325p.htm"><span class=femaleLink>Marníce Oberholzer</span></A></TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/1/2/12325p.htm"><span class=femaleLink>Marn&iacute;ce Oberholzer (*1994)</span></A></TD>
 <TD>&nbsp;</TD>
 </TR>
 </TABLE>
@@ -197,21 +197,21 @@ function ShowSection (sect) {
 </Table>
 <BR>
 Troufoto van b6.c1.d3.e5.f3.g3.h3.i2. Jopie Josef Jooste Henning *15-1-1993 en Marnice Oberholzer op 15 April 2017 te Franschhoek.Voor v.l.n.r Bernice Oberholzer, ma van die bruid; Jopie; Bernice en Irma Henning, ma van die bruidegom. Agter v.l.n.r Marius Oberholzer, pa van die bruid; Ds Theo Hay; Lourens Henning, pa die bruidegom
-<A name="s787l">
+<A name="s787l" class="localLink">
 <BR>
-<SPAN onclick='ShowSection("s787")' class=hand>
+<SPAN onclick='ShowSection("s787")' class="hand">
 <U>
-<font color=blue>Beskou lys van mense op foto</font>
+<font color="blue">Beskou lys van mense op foto</font>
 </U>
 </SPAN>
 </A>
 <SPAN id='s787' style='display:none'>
 <P>
-<A href="../../../persone/1/2/12324p.htm">Corrie Bernice Raubenheimer</A><BR/>
-<A href="../../../persone/6/1/6182p.htm">Dina Maria Britz</A><BR/>
-<A href="../../../persone/6/1/6171p.htm">Gerhardus Lourens Henning</A><BR/>
-<A href="../../../persone/6/1/6186p.htm">Jopie Josef Jooste Henning</A><BR/>
-<A href="../../../persone/1/2/12323p.htm">Stefanus Marius Oberholzer</A><BR/>
+<A class="localLink" href="../../../persone/1/2/12324p.htm">Corrie Bernice Raubenheimer</A><BR/>
+<A class="localLink" href="../../../persone/6/1/6182p.htm">Dina Maria Britz</A><BR/>
+<A class="localLink" href="../../../persone/6/1/6171p.htm">Gerhardus Lourens Henning</A><BR/>
+<A class="localLink" href="../../../persone/6/1/6186p.htm">Jopie Josef Jooste Henning</A><BR/>
+<A class="localLink" href="../../../persone/1/2/12323p.htm">Stefanus Marius Oberholzer</A><BR/>
 </P>
 </SPAN>
 <HR>
@@ -220,5 +220,50 @@ Troufoto van b6.c1.d3.e5.f3.g3.h3.i2. Jopie Josef Jooste Henning *15-1-1993 en M
 </TR>
 </TABLE>
 
+<script language="Javascript">
+function ShowAncestorGeneration1() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','none');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration2() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration3() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration4() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration5() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','');
+}
+function SetAncestorGenerationDisplay(generation, displayValue) {	
+	var generationClass = "ansestorGen" + generation;	
+	var Ancestors = document.getElementsByClassName(generationClass);
+	for(var i = 0; i < Ancestors.length; i++) {
+		Ancestors[i].parentElement.style.display = displayValue;
+	}
+}
+ShowAncestorGeneration2();
+</script>
 </BODY>
 </HTML>

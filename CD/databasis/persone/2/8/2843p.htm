@@ -2,7 +2,7 @@
 <HTML>
 <HEAD>
 <META content="text/html; charset=utf-8" http-equiv=Content-Type>
-<TITLE>Johanna Catharina Jacoba Smit</TITLE>
+<TITLE>Johanna Catharina Jacoba Smit (*1916, &#8224;1886)</TITLE>
 <LINK rel=stylesheet type="text/css" href="../../../../style/henning.css" />
 <LINK rel=stylesheet type="text/css" href="../../../../style/databasis.css" />
 <STYLE>
@@ -19,7 +19,7 @@
 <BODY>
 <TABLE border=1 width="100%" borderColorDark=silver borderColorLight=black cellPadding=1 CellSpacing=0 align=center>
 <TR>
-<TH>Johanna Catharina Jacoba Smit</TH>
+<TH>Johanna Catharina Jacoba Smit (*1916, &#8224;1886)</TH>
 </TR>
 <TR>
 <TD>
@@ -202,18 +202,18 @@ function ShowSection (sect) {
 </Table>
 <BR>
 a2.b1.c3.d10.e7.f3. Michael Jacobus Henning *2-2-1918 en sy tweede vrou, die weduwee Johanna Catharina Jacoba Dekker (gebore Smit) *6-8-1916
-<A name="s48l">
+<A name="s48l" class="localLink">
 <BR>
-<SPAN onclick='ShowSection("s48")' class=hand>
+<SPAN onclick='ShowSection("s48")' class="hand">
 <U>
-<font color=blue>Beskou lys van mense op foto</font>
+<font color="blue">Beskou lys van mense op foto</font>
 </U>
 </SPAN>
 </A>
 <SPAN id='s48' style='display:none'>
 <P>
-<A href="../../../persone/2/8/2843p.htm">Johanna Catharina Jacoba Smit</A><BR/>
-<A href="../../../persone/2/8/2841p.htm">Michael Jacobus Henning</A><BR/>
+<A class="localLink" href="../../../persone/2/8/2843p.htm">Johanna Catharina Jacoba Smit</A><BR/>
+<A class="localLink" href="../../../persone/2/8/2841p.htm">Michael Jacobus Henning</A><BR/>
 </P>
 </SPAN>
 <HR>
@@ -222,5 +222,50 @@ a2.b1.c3.d10.e7.f3. Michael Jacobus Henning *2-2-1918 en sy tweede vrou, die wed
 </TR>
 </TABLE>
 
+<script language="Javascript">
+function ShowAncestorGeneration1() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','none');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration2() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration3() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration4() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration5() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','');
+}
+function SetAncestorGenerationDisplay(generation, displayValue) {	
+	var generationClass = "ansestorGen" + generation;	
+	var Ancestors = document.getElementsByClassName(generationClass);
+	for(var i = 0; i < Ancestors.length; i++) {
+		Ancestors[i].parentElement.style.display = displayValue;
+	}
+}
+ShowAncestorGeneration2();
+</script>
 </BODY>
 </HTML>

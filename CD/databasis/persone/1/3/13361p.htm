@@ -2,7 +2,7 @@
 <HTML>
 <HEAD>
 <META content="text/html; charset=utf-8" http-equiv=Content-Type>
-<TITLE>Christiaan Lourens Nolte</TITLE>
+<TITLE>Christiaan Lourens Nolte (*1976)</TITLE>
 <LINK rel=stylesheet type="text/css" href="../../../../style/henning.css" />
 <LINK rel=stylesheet type="text/css" href="../../../../style/databasis.css" />
 <STYLE>
@@ -19,7 +19,7 @@
 <BODY>
 <TABLE border=1 width="100%" borderColorDark=silver borderColorLight=black cellPadding=1 CellSpacing=0 align=center>
 <TR>
-<TH>Christiaan Lourens Nolte</TH>
+<TH>Christiaan Lourens Nolte (*1976)</TH>
 </TR>
 <TR>
 <TD>
@@ -176,26 +176,26 @@ function ShowSection (sect) {
 </Table>
 <BR>
  a2.b1.c6.d11.e3.f1.g3.Roydon Trevor Henning (Trevor) *25-12-1950 en sy gesin. Heel voor: Wanda Henning *28-12-1975 (h2) en Adele Nolte (gebore Henning) *1-12-1972. Middel: Pa Trevor, ma Elsa (gebore Piek) *20-6-1951 en Vicky Botha (gebore Henning) *7-6-1979 met haar dogterjie, Chinika *26-1-2006. Heel agter: Mynie van den Berg en Marco Henning *20-1-1999, seun van Wanda; Chris Nolte *11-2-1976, man van Adele en Marius Botha *10-12-1974, man van Vicky  <br/>
-<A name="s759l">
+<A name="s759l" class="localLink">
 <BR>
-<SPAN onclick='ShowSection("s759")' class=hand>
+<SPAN onclick='ShowSection("s759")' class="hand">
 <U>
-<font color=blue>Beskou lys van mense op foto</font>
+<font color="blue">Beskou lys van mense op foto</font>
 </U>
 </SPAN>
 </A>
 <SPAN id='s759' style='display:none'>
 <P>
-<A href="../../../persone/3/9/3917p.htm">Adele Elaine Henning</A><BR/>
-<A href="../../../persone/1/3/13365p.htm">Chinika Botha</A><BR/>
-<A href="../../../persone/1/3/13361p.htm">Christiaan Lourens Nolte</A><BR/>
-<A href="../../../persone/1/3/13364p.htm">Dylan Botha</A><BR/>
-<A href="../../../persone/3/9/3916p.htm">Elsje Johanna Piek</A><BR/>
-<A href="../../../persone/1/3/13362p.htm">Marco Henning</A><BR/>
-<A href="../../../persone/1/3/13363p.htm">Marius Botha</A><BR/>
-<A href="../../../persone/3/9/3906p.htm">Roydon Trevor Henning</A><BR/>
-<A href="../../../persone/3/9/3919p.htm">Vicky Henning</A><BR/>
-<A href="../../../persone/3/9/3918p.htm">Wanda Henning</A><BR/>
+<A class="localLink" href="../../../persone/3/9/3917p.htm">Adele Elaine Henning</A><BR/>
+<A class="localLink" href="../../../persone/1/3/13365p.htm">Chinika Botha</A><BR/>
+<A class="localLink" href="../../../persone/1/3/13361p.htm">Christiaan Lourens Nolte</A><BR/>
+<A class="localLink" href="../../../persone/1/3/13364p.htm">Dylan Botha</A><BR/>
+<A class="localLink" href="../../../persone/3/9/3916p.htm">Elsje Johanna Piek</A><BR/>
+<A class="localLink" href="../../../persone/1/3/13362p.htm">Marco Henning</A><BR/>
+<A class="localLink" href="../../../persone/1/3/13363p.htm">Marius Botha</A><BR/>
+<A class="localLink" href="../../../persone/3/9/3906p.htm">Roydon Trevor Henning</A><BR/>
+<A class="localLink" href="../../../persone/3/9/3919p.htm">Vicky Henning</A><BR/>
+<A class="localLink" href="../../../persone/3/9/3918p.htm">Wanda Henning</A><BR/>
 </P>
 </SPAN>
 <HR>
@@ -204,5 +204,50 @@ function ShowSection (sect) {
 </TR>
 </TABLE>
 
+<script language="Javascript">
+function ShowAncestorGeneration1() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','none');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration2() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration3() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration4() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration5() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','');
+}
+function SetAncestorGenerationDisplay(generation, displayValue) {	
+	var generationClass = "ansestorGen" + generation;	
+	var Ancestors = document.getElementsByClassName(generationClass);
+	for(var i = 0; i < Ancestors.length; i++) {
+		Ancestors[i].parentElement.style.display = displayValue;
+	}
+}
+ShowAncestorGeneration2();
+</script>
 </BODY>
 </HTML>

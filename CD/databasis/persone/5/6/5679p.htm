@@ -2,7 +2,7 @@
 <HTML>
 <HEAD>
 <META content="text/html; charset=utf-8" http-equiv=Content-Type>
-<TITLE>Maria Ferreira</TITLE>
+<TITLE>Maria Ferreira (*1908)</TITLE>
 <LINK rel=stylesheet type="text/css" href="../../../../style/henning.css" />
 <LINK rel=stylesheet type="text/css" href="../../../../style/databasis.css" />
 <STYLE>
@@ -19,7 +19,7 @@
 <BODY>
 <TABLE border=1 width="100%" borderColorDark=silver borderColorLight=black cellPadding=1 CellSpacing=0 align=center>
 <TR>
-<TH>Maria Ferreira</TH>
+<TH>Maria Ferreira (*1908)</TH>
 </TR>
 <TR>
 <TD>
@@ -163,27 +163,27 @@
 <A name='Voorgeslagte'></A>
 
 <A name='Nageslagte'></A>
-<TABLE border=1 width="100%" borderColorDark=silver borderColorLight=black cellPadding=1 CellSpacing=0 align=center>
+<TABLE border="1" width="100%" borderColorDark="silver" borderColorLight="black" cellPadding="1" CellSpacing="0" align="center">
 <TR>
-<TH>Nageslagte</TH>
+<TH>Nageslagte van Maria Ferreira (*1908)</TH>
 </TR>
 <TR>
 <TD>
-<TABLE width=100% border=0>
+<TABLE width="100%" border="0">
 <TR>
-<TD><B class=femaleLink>Maria Ferreira</B></TD>
+<TD><B class="femaleLink">Maria Ferreira (*1908)</B></TD>
 <TD></TD>
 </TR>
 <TR>
-<TD>&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/5/6/5680p.htm"><span class=maleLink>Leonard Aldrich Henning</span></A></TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/5/6/5680p.htm"><span class=maleLink>Leonard Aldrich Henning (*1940, &#8224;2008)</span></A></TD>
 <TD>&nbsp;a2.b5.c5.d8.e2.f2.g1.</TD>
 </TR>
 <TR>
-<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/5/6/5682p.htm"><span class=femaleLink>Mariënn Henning</span></A></TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/5/6/5682p.htm"><span class=femaleLink>Mari&euml;nn Henning (*1974)</span></A></TD>
 <TD>&nbsp;a2.b5.c5.d8.e2.f2.g1.h1.</TD>
 </TR>
 <TR>
-<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/5/6/5683p.htm"><span class=femaleLink>Annalien Henning</span></A></TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/5/6/5683p.htm"><span class=femaleLink>Annalien Henning (*1976)</span></A></TD>
 <TD>&nbsp;a2.b5.c5.d8.e2.f2.g1.h2.</TD>
 </TR>
 </TABLE>
@@ -224,18 +224,18 @@ function ShowSection (sect) {
 </Table>
 <BR>
 B078. b5.c5.d8.e2.f2. Leonard Johannes (Leon) Henning *6-1-1906 en sy vrou, Maria (Marie) (gebore Ferreira) op hul troudag 4-5-1935
-<A name="s357l">
+<A name="s357l" class="localLink">
 <BR>
-<SPAN onclick='ShowSection("s357")' class=hand>
+<SPAN onclick='ShowSection("s357")' class="hand">
 <U>
-<font color=blue>Beskou lys van mense op foto</font>
+<font color="blue">Beskou lys van mense op foto</font>
 </U>
 </SPAN>
 </A>
 <SPAN id='s357' style='display:none'>
 <P>
-<A href="../../../persone/5/6/5666p.htm">Leonard Johannes Henning</A><BR/>
-<A href="../../../persone/5/6/5679p.htm">Maria Ferreira</A><BR/>
+<A class="localLink" href="../../../persone/5/6/5666p.htm">Leonard Johannes Henning</A><BR/>
+<A class="localLink" href="../../../persone/5/6/5679p.htm">Maria Ferreira</A><BR/>
 </P>
 </SPAN>
 <HR>
@@ -244,5 +244,50 @@ B078. b5.c5.d8.e2.f2. Leonard Johannes (Leon) Henning *6-1-1906 en sy vrou, Mari
 </TR>
 </TABLE>
 
+<script language="Javascript">
+function ShowAncestorGeneration1() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','none');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration2() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration3() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration4() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration5() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','');
+}
+function SetAncestorGenerationDisplay(generation, displayValue) {	
+	var generationClass = "ansestorGen" + generation;	
+	var Ancestors = document.getElementsByClassName(generationClass);
+	for(var i = 0; i < Ancestors.length; i++) {
+		Ancestors[i].parentElement.style.display = displayValue;
+	}
+}
+ShowAncestorGeneration2();
+</script>
 </BODY>
 </HTML>

@@ -176,28 +176,28 @@ function ShowSection (sect) {
 </Table>
 <BR>
 50ste huweliksherdenking van a1.b1.c6.d8.e3. Charlotte Gertruida Henning *18-7-1888 en haar man David Allen *27-7-1880. Voorste ry: David Allen, Charlotte Gertruida Allen (gebore Henning) en Anne Allen (vrou van John Allen). <br/>Middelste ry: Annie Winifred Andrews, Ruby Bell (gebore Allen), Elizabeth Dow (gebore Allen, oudste dogter), a1.b1.c6.d8.e6. Elizabeth Catharina Scholtz (gebore Henning) *1896 suster van Charlotte, wat spesiaal vir die geleentheid na Skotlang gegaan het vir die goue bruilofsviering. Agterste ry: James Dow, man van Elizabeth Allen, Nora Mc Phail, gebore Allen, Eric Mc Phail (Nora se man), John Allen, Mev Brown (familie vriend) en Leonard Andrews. Die foto is op 8 Januarie 1957 geneem
-<A name="s6l">
+<A name="s6l" class="localLink">
 <BR>
-<SPAN onclick='ShowSection("s6")' class=hand>
+<SPAN onclick='ShowSection("s6")' class="hand">
 <U>
-<font color=blue>Beskou lys van mense op foto</font>
+<font color="blue">Beskou lys van mense op foto</font>
 </U>
 </SPAN>
 </A>
 <SPAN id='s6' style='display:none'>
 <P>
-<A href="../../../persone/1/1/11088p.htm">Anne Malone</A><BR/>
-<A href="../../../persone/1/1/11081p.htm">Annie Winifred Allen</A><BR/>
-<A href="../../../persone/3/8/3850p.htm">Charlotte Gertruida Henning</A><BR/>
-<A href="../../../persone/3/8/3862p.htm">David Allen</A><BR/>
-<A href="../../../persone/1/1/11073p.htm">Elizabeth Allen</A><BR/>
-<A href="../../../persone/3/8/3853p.htm">Elizabeth Catharina Henning</A><BR/>
-<A href="../../../persone/1/1/11089p.htm">Eric Mcphail</A><BR/>
-<A href="../../../persone/1/1/11085p.htm">James Dow</A><BR/>
-<A href="../../../persone/1/1/11079p.htm">John Allen</A><BR/>
-<A href="../../../persone/1/1/11082p.htm">Leonard Andrews</A><BR/>
-<A href="../../../persone/1/1/11080p.htm">Norah Allen</A><BR/>
-<A href="../../../persone/1/1/11077p.htm">Ruby Allen</A><BR/>
+<A class="localLink" href="../../../persone/1/1/11088p.htm">Anne Malone</A><BR/>
+<A class="localLink" href="../../../persone/1/1/11081p.htm">Annie Winifred Allen</A><BR/>
+<A class="localLink" href="../../../persone/3/8/3850p.htm">Charlotte Gertruida Henning</A><BR/>
+<A class="localLink" href="../../../persone/3/8/3862p.htm">David Allen</A><BR/>
+<A class="localLink" href="../../../persone/1/1/11073p.htm">Elizabeth Allen</A><BR/>
+<A class="localLink" href="../../../persone/3/8/3853p.htm">Elizabeth Catharina Henning</A><BR/>
+<A class="localLink" href="../../../persone/1/1/11089p.htm">Eric Mcphail</A><BR/>
+<A class="localLink" href="../../../persone/1/1/11085p.htm">James Dow</A><BR/>
+<A class="localLink" href="../../../persone/1/1/11079p.htm">John Allen</A><BR/>
+<A class="localLink" href="../../../persone/1/1/11082p.htm">Leonard Andrews</A><BR/>
+<A class="localLink" href="../../../persone/1/1/11080p.htm">Norah Allen</A><BR/>
+<A class="localLink" href="../../../persone/1/1/11077p.htm">Ruby Allen</A><BR/>
 </P>
 </SPAN>
 <HR>
@@ -206,5 +206,50 @@ function ShowSection (sect) {
 </TR>
 </TABLE>
 
+<script language="Javascript">
+function ShowAncestorGeneration1() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','none');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration2() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration3() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration4() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration5() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','');
+}
+function SetAncestorGenerationDisplay(generation, displayValue) {	
+	var generationClass = "ansestorGen" + generation;	
+	var Ancestors = document.getElementsByClassName(generationClass);
+	for(var i = 0; i < Ancestors.length; i++) {
+		Ancestors[i].parentElement.style.display = displayValue;
+	}
+}
+ShowAncestorGeneration2();
+</script>
 </BODY>
 </HTML>

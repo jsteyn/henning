@@ -2,7 +2,7 @@
 <HTML>
 <HEAD>
 <META content="text/html; charset=utf-8" http-equiv=Content-Type>
-<TITLE>Andrew Francois Dobie</TITLE>
+<TITLE>Andrew Francois Dobie (*1980)</TITLE>
 <LINK rel=stylesheet type="text/css" href="../../../../style/henning.css" />
 <LINK rel=stylesheet type="text/css" href="../../../../style/databasis.css" />
 <STYLE>
@@ -19,7 +19,7 @@
 <BODY>
 <TABLE border=1 width="100%" borderColorDark=silver borderColorLight=black cellPadding=1 CellSpacing=0 align=center>
 <TR>
-<TH>Andrew Francois Dobie</TH>
+<TH>Andrew Francois Dobie (*1980)</TH>
 </TR>
 <TR>
 <TD>
@@ -176,18 +176,18 @@ function ShowSection (sect) {
 </Table>
 <BR>
 D093B. Andrew Francois Dobie *10-9-1980 en Annalene Noomé *9-11-1982 op hul troudag 2-2-2008. Annalene is die dogter van b7.c13.d5.e1.f3. Marlene Anna Henning *24-12-1957 en haar man Paul Petrus Noomé
-<A name="s969l">
+<A name="s969l" class="localLink">
 <BR>
-<SPAN onclick='ShowSection("s969")' class=hand>
+<SPAN onclick='ShowSection("s969")' class="hand">
 <U>
-<font color=blue>Beskou lys van mense op foto</font>
+<font color="blue">Beskou lys van mense op foto</font>
 </U>
 </SPAN>
 </A>
 <SPAN id='s969' style='display:none'>
 <P>
-<A href="../../../persone/1/1/11240p.htm">Andrew Francois Dobie</A><BR/>
-<A href="../../../persone/1/1/11239p.htm">Annalene Noomé</A><BR/>
+<A class="localLink" href="../../../persone/1/1/11240p.htm">Andrew Francois Dobie</A><BR/>
+<A class="localLink" href="../../../persone/1/1/11239p.htm">Annalene Noomé</A><BR/>
 </P>
 </SPAN>
 <HR>
@@ -196,5 +196,50 @@ D093B. Andrew Francois Dobie *10-9-1980 en Annalene Noomé *9-11-1982 op hul tro
 </TR>
 </TABLE>
 
+<script language="Javascript">
+function ShowAncestorGeneration1() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','none');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration2() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration3() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration4() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration5() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','');
+}
+function SetAncestorGenerationDisplay(generation, displayValue) {	
+	var generationClass = "ansestorGen" + generation;	
+	var Ancestors = document.getElementsByClassName(generationClass);
+	for(var i = 0; i < Ancestors.length; i++) {
+		Ancestors[i].parentElement.style.display = displayValue;
+	}
+}
+ShowAncestorGeneration2();
+</script>
 </BODY>
 </HTML>

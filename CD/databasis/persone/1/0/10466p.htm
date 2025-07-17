@@ -163,23 +163,23 @@
 <A name='Voorgeslagte'></A>
 
 <A name='Nageslagte'></A>
-<TABLE border=1 width="100%" borderColorDark=silver borderColorLight=black cellPadding=1 CellSpacing=0 align=center>
+<TABLE border="1" width="100%" borderColorDark="silver" borderColorLight="black" cellPadding="1" CellSpacing="0" align="center">
 <TR>
-<TH>Nageslagte</TH>
+<TH>Nageslagte van Anne Margaret Sophia Breen</TH>
 </TR>
 <TR>
 <TD>
-<TABLE width=100% border=0>
+<TABLE width="100%" border="0">
 <TR>
-<TD><B class=femaleLink>Anne Margaret Sophia Breen</B></TD>
+<TD><B class="femaleLink">Anne Margaret Sophia Breen</B></TD>
 <TD></TD>
 </TR>
 <TR>
-<TD>&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/3/2/3279p.htm"><span class=femaleLink>Marianne Höltz</span></A></TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/3/2/3279p.htm"><span class=femaleLink>Marianne H&ouml;ltz (*1960)</span></A></TD>
 <TD>&nbsp;</TD>
 </TR>
 <TR>
-<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/3/2/3280p.htm"><span class=femaleLink>Marzette Henning</span></A></TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/3/2/3280p.htm"><span class=femaleLink>Marzette Henning (*1979)</span></A></TD>
 <TD>&nbsp;a2.b1.c6.d2.e1.f6.g2.h1.</TD>
 </TR>
 </TABLE>
@@ -220,22 +220,22 @@ function ShowSection (sect) {
 </Table>
 <BR>
 Die troue van b1.c6.d2.e1.f6.g2. Jacobus Wilhelmus Henning * 28-8-1952 en Marianne Höltz *6-6-1959. V.l.n.r. Die bruidegom se ouers, Hendrik Nicolaas Bekker Henning *11-7-1921 en Maria Catharina Henning (gebore Du Preez), die bruidspaar, die bruid se ouers, Paul Frederick Höltz en Anne Margaret Sophia Höltz (gebore Breen)
-<A name="s7l">
+<A name="s7l" class="localLink">
 <BR>
-<SPAN onclick='ShowSection("s7")' class=hand>
+<SPAN onclick='ShowSection("s7")' class="hand">
 <U>
-<font color=blue>Beskou lys van mense op foto</font>
+<font color="blue">Beskou lys van mense op foto</font>
 </U>
 </SPAN>
 </A>
 <SPAN id='s7' style='display:none'>
 <P>
-<A href="../../../persone/1/0/10466p.htm">Anne Margaret Sophia Breen</A><BR/>
-<A href="../../../persone/3/2/3271p.htm">Hendrik Nicolaas Bekker Henning</A><BR/>
-<A href="../../../persone/3/2/3274p.htm">Jacobus Wilhelmus Henning</A><BR/>
-<A href="../../../persone/3/2/3272p.htm">Maria Catharina Du Preez</A><BR/>
-<A href="../../../persone/3/2/3279p.htm">Marianne Höltz</A><BR/>
-<A href="../../../persone/1/0/10465p.htm">Paul Fredrick Höltz</A><BR/>
+<A class="localLink" href="../../../persone/1/0/10466p.htm">Anne Margaret Sophia Breen</A><BR/>
+<A class="localLink" href="../../../persone/3/2/3271p.htm">Hendrik Nicolaas Bekker Henning</A><BR/>
+<A class="localLink" href="../../../persone/3/2/3274p.htm">Jacobus Wilhelmus Henning</A><BR/>
+<A class="localLink" href="../../../persone/3/2/3272p.htm">Maria Catharina Du Preez</A><BR/>
+<A class="localLink" href="../../../persone/3/2/3279p.htm">Marianne Höltz</A><BR/>
+<A class="localLink" href="../../../persone/1/0/10465p.htm">Paul Fredrick Höltz</A><BR/>
 </P>
 </SPAN>
 <HR>
@@ -244,5 +244,50 @@ Die troue van b1.c6.d2.e1.f6.g2. Jacobus Wilhelmus Henning * 28-8-1952 en Marian
 </TR>
 </TABLE>
 
+<script language="Javascript">
+function ShowAncestorGeneration1() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','none');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration2() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration3() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration4() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration5() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','');
+}
+function SetAncestorGenerationDisplay(generation, displayValue) {	
+	var generationClass = "ansestorGen" + generation;	
+	var Ancestors = document.getElementsByClassName(generationClass);
+	for(var i = 0; i < Ancestors.length; i++) {
+		Ancestors[i].parentElement.style.display = displayValue;
+	}
+}
+ShowAncestorGeneration2();
+</script>
 </BODY>
 </HTML>

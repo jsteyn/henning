@@ -2,7 +2,7 @@
 <HTML>
 <HEAD>
 <META content="text/html; charset=utf-8" http-equiv=Content-Type>
-<TITLE>Irene Martha Chrisiaan Du Plessis</TITLE>
+<TITLE>Irene Martha Chrisiaan Du Plessis (*1958)</TITLE>
 <LINK rel=stylesheet type="text/css" href="../../../../style/henning.css" />
 <LINK rel=stylesheet type="text/css" href="../../../../style/databasis.css" />
 <STYLE>
@@ -19,7 +19,7 @@
 <BODY>
 <TABLE border=1 width="100%" borderColorDark=silver borderColorLight=black cellPadding=1 CellSpacing=0 align=center>
 <TR>
-<TH>Irene Martha Chrisiaan Du Plessis</TH>
+<TH>Irene Martha Chrisiaan Du Plessis (*1958)</TH>
 </TR>
 <TR>
 <TD>
@@ -176,18 +176,18 @@ function ShowSection (sect) {
 </Table>
 <BR>
 A112. b1.c1.d10.e2.f1.g1. Johannes Carel (Callie) Henning *5-3-1949 en sy tweede vrou, Irene Martha Chrisiaan (gebore Du Plessis) *5-7-1958 (saam met Lulu)
-<A name="s734l">
+<A name="s734l" class="localLink">
 <BR>
-<SPAN onclick='ShowSection("s734")' class=hand>
+<SPAN onclick='ShowSection("s734")' class="hand">
 <U>
-<font color=blue>Beskou lys van mense op foto</font>
+<font color="blue">Beskou lys van mense op foto</font>
 </U>
 </SPAN>
 </A>
 <SPAN id='s734' style='display:none'>
 <P>
-<A href="../../../persone/1/0/10579p.htm">Irene Martha Chrisiaan Du Plessis</A><BR/>
-<A href="../../../persone/9/2/9227p.htm">Johannes Carel Henning</A><BR/>
+<A class="localLink" href="../../../persone/1/0/10579p.htm">Irene Martha Chrisiaan Du Plessis</A><BR/>
+<A class="localLink" href="../../../persone/9/2/9227p.htm">Johannes Carel Henning</A><BR/>
 </P>
 </SPAN>
 <HR>
@@ -196,5 +196,50 @@ A112. b1.c1.d10.e2.f1.g1. Johannes Carel (Callie) Henning *5-3-1949 en sy tweede
 </TR>
 </TABLE>
 
+<script language="Javascript">
+function ShowAncestorGeneration1() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','none');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration2() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration3() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration4() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration5() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','');
+}
+function SetAncestorGenerationDisplay(generation, displayValue) {	
+	var generationClass = "ansestorGen" + generation;	
+	var Ancestors = document.getElementsByClassName(generationClass);
+	for(var i = 0; i < Ancestors.length; i++) {
+		Ancestors[i].parentElement.style.display = displayValue;
+	}
+}
+ShowAncestorGeneration2();
+</script>
 </BODY>
 </HTML>

@@ -176,18 +176,18 @@ function ShowSection (sect) {
 </Table>
 <BR>
 C111. b6.c1.d3.e5.f3.g7.h2. Cecil Henning *2-7-1952, sy vrou, Ismarie en sy stiefdogter, Jeanine Alexis Lategan (gebore Van Rooyen) *23-10-1986
-<A name="s35l">
+<A name="s35l" class="localLink">
 <BR>
-<SPAN onclick='ShowSection("s35")' class=hand>
+<SPAN onclick='ShowSection("s35")' class="hand">
 <U>
-<font color=blue>Beskou lys van mense op foto</font>
+<font color="blue">Beskou lys van mense op foto</font>
 </U>
 </SPAN>
 </A>
 <SPAN id='s35' style='display:none'>
 <P>
-<A href="../../../persone/6/2/6225p.htm">Cecil Henning</A><BR/>
-<A href="../../../persone/1/1/11263p.htm">Ismarie Du Toit</A><BR/>
+<A class="localLink" href="../../../persone/6/2/6225p.htm">Cecil Henning</A><BR/>
+<A class="localLink" href="../../../persone/1/1/11263p.htm">Ismarie Du Toit</A><BR/>
 </P>
 </SPAN>
 <HR>
@@ -196,5 +196,50 @@ C111. b6.c1.d3.e5.f3.g7.h2. Cecil Henning *2-7-1952, sy vrou, Ismarie en sy stie
 </TR>
 </TABLE>
 
+<script language="Javascript">
+function ShowAncestorGeneration1() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','none');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration2() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration3() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration4() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration5() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','');
+}
+function SetAncestorGenerationDisplay(generation, displayValue) {	
+	var generationClass = "ansestorGen" + generation;	
+	var Ancestors = document.getElementsByClassName(generationClass);
+	for(var i = 0; i < Ancestors.length; i++) {
+		Ancestors[i].parentElement.style.display = displayValue;
+	}
+}
+ShowAncestorGeneration2();
+</script>
 </BODY>
 </HTML>

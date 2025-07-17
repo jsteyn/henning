@@ -2,7 +2,7 @@
 <HTML>
 <HEAD>
 <META content="text/html; charset=utf-8" http-equiv=Content-Type>
-<TITLE>Eric Michael Naude</TITLE>
+<TITLE>Eric Michael Naude (*1928, &#8224;2010)</TITLE>
 <LINK rel=stylesheet type="text/css" href="../../../../style/henning.css" />
 <LINK rel=stylesheet type="text/css" href="../../../../style/databasis.css" />
 <STYLE>
@@ -19,7 +19,7 @@
 <BODY>
 <TABLE border=1 width="100%" borderColorDark=silver borderColorLight=black cellPadding=1 CellSpacing=0 align=center>
 <TR>
-<TH>Eric Michael Naude</TH>
+<TH>Eric Michael Naude (*1928, &#8224;2010)</TH>
 </TR>
 <TR>
 <TD>
@@ -176,18 +176,18 @@ function ShowSection (sect) {
 </Table>
 <BR>
 Eric Michael Naudé * 11-7-1928 en sy vrou b7.c2.d4.e6.f1.g1. Ellen Elizabeth (gebore Henning) * 28-10-1929 met hul 50ste huweliksherdenking
-<A name="s537l">
+<A name="s537l" class="localLink">
 <BR>
-<SPAN onclick='ShowSection("s537")' class=hand>
+<SPAN onclick='ShowSection("s537")' class="hand">
 <U>
-<font color=blue>Beskou lys van mense op foto</font>
+<font color="blue">Beskou lys van mense op foto</font>
 </U>
 </SPAN>
 </A>
 <SPAN id='s537' style='display:none'>
 <P>
-<A href="../../../persone/9/2/925p.htm">Ellen Elizabeth Henning</A><BR/>
-<A href="../../../persone/8/1/8152p.htm">Eric Michael Naude</A><BR/>
+<A class="localLink" href="../../../persone/9/2/925p.htm">Ellen Elizabeth Henning</A><BR/>
+<A class="localLink" href="../../../persone/8/1/8152p.htm">Eric Michael Naude</A><BR/>
 </P>
 </SPAN>
 <HR>
@@ -196,5 +196,50 @@ Eric Michael Naudé * 11-7-1928 en sy vrou b7.c2.d4.e6.f1.g1. Ellen Elizabeth (g
 </TR>
 </TABLE>
 
+<script language="Javascript">
+function ShowAncestorGeneration1() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','none');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration2() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration3() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration4() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration5() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','');
+}
+function SetAncestorGenerationDisplay(generation, displayValue) {	
+	var generationClass = "ansestorGen" + generation;	
+	var Ancestors = document.getElementsByClassName(generationClass);
+	for(var i = 0; i < Ancestors.length; i++) {
+		Ancestors[i].parentElement.style.display = displayValue;
+	}
+}
+ShowAncestorGeneration2();
+</script>
 </BODY>
 </HTML>

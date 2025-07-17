@@ -219,15 +219,15 @@
 <A name='Voorgeslagte'></A>
 
 <A name='Nageslagte'></A>
-<TABLE border=1 width="100%" borderColorDark=silver borderColorLight=black cellPadding=1 CellSpacing=0 align=center>
+<TABLE border="1" width="100%" borderColorDark="silver" borderColorLight="black" cellPadding="1" CellSpacing="0" align="center">
 <TR>
-<TH>Nageslagte</TH>
+<TH>Nageslagte van William Taylor Mitchell</TH>
 </TR>
 <TR>
 <TD>
-<TABLE width=100% border=0>
+<TABLE width="100%" border="0">
 <TR>
-<TD><B class=maleLink>William Taylor Mitchell</B></TD>
+<TD><B class="maleLink">William Taylor Mitchell</B></TD>
 <TD></TD>
 </TR>
 <TR>
@@ -247,7 +247,7 @@
 <TD>&nbsp;</TD>
 </TR>
 <TR>
-<TD>&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/1/3/13678p.htm"><span class=femaleLink>Maria Headrick Mitchell</span></A></TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;<A Href="../../../persone/1/3/13678p.htm"><span class=femaleLink>Maria Headrick Mitchell (*1930)</span></A></TD>
 <TD>&nbsp;</TD>
 </TR>
 <TR>
@@ -300,19 +300,19 @@ function ShowSection (sect) {
 </Table>
 <BR>
 William Taylor Mitchell, sy vrou, a2.b7.c7.d2.e7. Paulina Elizabeth (gebore Henning) *20-6-1895 en hul oudste seuntjie, Gordon Henning Mitchell
-<A name="s1092l">
+<A name="s1092l" class="localLink">
 <BR>
-<SPAN onclick='ShowSection("s1092")' class=hand>
+<SPAN onclick='ShowSection("s1092")' class="hand">
 <U>
-<font color=blue>Beskou lys van mense op foto</font>
+<font color="blue">Beskou lys van mense op foto</font>
 </U>
 </SPAN>
 </A>
 <SPAN id='s1092' style='display:none'>
 <P>
-<A href="../../../persone/1/3/13674p.htm">Gordon Henning Mitchell</A><BR/>
-<A href="../../../persone/1/3/13666p.htm">Paulina Elizabeth Henning</A><BR/>
-<A href="../../../persone/1/3/13667p.htm">William Taylor Mitchell</A><BR/>
+<A class="localLink" href="../../../persone/1/3/13674p.htm">Gordon Henning Mitchell</A><BR/>
+<A class="localLink" href="../../../persone/1/3/13666p.htm">Paulina Elizabeth Henning</A><BR/>
+<A class="localLink" href="../../../persone/1/3/13667p.htm">William Taylor Mitchell</A><BR/>
 </P>
 </SPAN>
 <HR>
@@ -321,5 +321,50 @@ William Taylor Mitchell, sy vrou, a2.b7.c7.d2.e7. Paulina Elizabeth (gebore Henn
 </TR>
 </TABLE>
 
+<script language="Javascript">
+function ShowAncestorGeneration1() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','none');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration2() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration3() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration4() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration5() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','');
+}
+function SetAncestorGenerationDisplay(generation, displayValue) {	
+	var generationClass = "ansestorGen" + generation;	
+	var Ancestors = document.getElementsByClassName(generationClass);
+	for(var i = 0; i < Ancestors.length; i++) {
+		Ancestors[i].parentElement.style.display = displayValue;
+	}
+}
+ShowAncestorGeneration2();
+</script>
 </BODY>
 </HTML>

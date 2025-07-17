@@ -176,21 +176,21 @@ function ShowSection (sect) {
 </Table>
 <BR>
 b1.c6.d11. Lourens Jacobus Henning en twee van sy kinders met hulle eggenotes. Van regs na links: Vader Lourens Jacobus, Stephanus Johannes Petrus * 8-8-1904 (e10) en sy eggenote Cornelia Martha Maria (gebore van der Merwe), Sarah Elizabeth Aletta * 16-2-1877 (e1), haar eggenote Duncan Ainslie en hul dogter Miems. Foto gedurende 1935 op die plaas Tafelberg, distrik Rouxville geneem
-<A name="s23l">
+<A name="s23l" class="localLink">
 <BR>
-<SPAN onclick='ShowSection("s23")' class=hand>
+<SPAN onclick='ShowSection("s23")' class="hand">
 <U>
-<font color=blue>Beskou lys van mense op foto</font>
+<font color="blue">Beskou lys van mense op foto</font>
 </U>
 </SPAN>
 </A>
 <SPAN id='s23' style='display:none'>
 <P>
-<A href="../../../persone/3/9/3991p.htm">Cornelia Martha Maria Van Der Merwe</A><BR/>
-<A href="../../../persone/3/8/3898p.htm">Duncan Miller Ainslie</A><BR/>
-<A href="../../../persone/3/1/3199p.htm">Lourens Jacobus Henning</A><BR/>
-<A href="../../../persone/3/8/3888p.htm">Sarah Elizabeth Aletta Walstrand Henning</A><BR/>
-<A href="../../../persone/3/8/3897p.htm">Stephanus Johannes Petrus Henning</A><BR/>
+<A class="localLink" href="../../../persone/3/9/3991p.htm">Cornelia Martha Maria Van Der Merwe</A><BR/>
+<A class="localLink" href="../../../persone/3/8/3898p.htm">Duncan Miller Ainslie</A><BR/>
+<A class="localLink" href="../../../persone/3/1/3199p.htm">Lourens Jacobus Henning</A><BR/>
+<A class="localLink" href="../../../persone/3/8/3888p.htm">Sarah Elizabeth Aletta Walstrand Henning</A><BR/>
+<A class="localLink" href="../../../persone/3/8/3897p.htm">Stephanus Johannes Petrus Henning</A><BR/>
 </P>
 </SPAN>
 <HR>
@@ -199,5 +199,50 @@ b1.c6.d11. Lourens Jacobus Henning en twee van sy kinders met hulle eggenotes. V
 </TR>
 </TABLE>
 
+<script language="Javascript">
+function ShowAncestorGeneration1() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','none');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration2() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration3() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration4() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration5() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','');
+}
+function SetAncestorGenerationDisplay(generation, displayValue) {	
+	var generationClass = "ansestorGen" + generation;	
+	var Ancestors = document.getElementsByClassName(generationClass);
+	for(var i = 0; i < Ancestors.length; i++) {
+		Ancestors[i].parentElement.style.display = displayValue;
+	}
+}
+ShowAncestorGeneration2();
+</script>
 </BODY>
 </HTML>

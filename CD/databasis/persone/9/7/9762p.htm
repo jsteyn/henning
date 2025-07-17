@@ -2,7 +2,7 @@
 <HTML>
 <HEAD>
 <META content="text/html; charset=utf-8" http-equiv=Content-Type>
-<TITLE>Johanna Maria Botes</TITLE>
+<TITLE>Johanna Maria Botes (*1937)</TITLE>
 <LINK rel=stylesheet type="text/css" href="../../../../style/henning.css" />
 <LINK rel=stylesheet type="text/css" href="../../../../style/databasis.css" />
 <STYLE>
@@ -19,7 +19,7 @@
 <BODY>
 <TABLE border=1 width="100%" borderColorDark=silver borderColorLight=black cellPadding=1 CellSpacing=0 align=center>
 <TR>
-<TH>Johanna Maria Botes</TH>
+<TH>Johanna Maria Botes (*1937)</TH>
 </TR>
 <TR>
 <TD>
@@ -176,18 +176,18 @@ function ShowSection (sect) {
 </Table>
 <BR>
 b10.c6.d3.e2.f2. Pieter Barend Henning * 20-10-1929 en sy tweede vrou  J M Botes
-<A name="s553l">
+<A name="s553l" class="localLink">
 <BR>
-<SPAN onclick='ShowSection("s553")' class=hand>
+<SPAN onclick='ShowSection("s553")' class="hand">
 <U>
-<font color=blue>Beskou lys van mense op foto</font>
+<font color="blue">Beskou lys van mense op foto</font>
 </U>
 </SPAN>
 </A>
 <SPAN id='s553' style='display:none'>
 <P>
-<A href="../../../persone/9/7/9762p.htm">Johanna Maria Botes</A><BR/>
-<A href="../../../persone/7/6/7653p.htm">Pieter Barend Henning</A><BR/>
+<A class="localLink" href="../../../persone/9/7/9762p.htm">Johanna Maria Botes</A><BR/>
+<A class="localLink" href="../../../persone/7/6/7653p.htm">Pieter Barend Henning</A><BR/>
 </P>
 </SPAN>
 <HR>
@@ -196,5 +196,50 @@ b10.c6.d3.e2.f2. Pieter Barend Henning * 20-10-1929 en sy tweede vrou  J M Botes
 </TR>
 </TABLE>
 
+<script language="Javascript">
+function ShowAncestorGeneration1() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','none');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration2() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration3() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration4() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration5() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','');
+}
+function SetAncestorGenerationDisplay(generation, displayValue) {	
+	var generationClass = "ansestorGen" + generation;	
+	var Ancestors = document.getElementsByClassName(generationClass);
+	for(var i = 0; i < Ancestors.length; i++) {
+		Ancestors[i].parentElement.style.display = displayValue;
+	}
+}
+ShowAncestorGeneration2();
+</script>
 </BODY>
 </HTML>

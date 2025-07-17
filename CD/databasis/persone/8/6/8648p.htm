@@ -2,7 +2,7 @@
 <HTML>
 <HEAD>
 <META content="text/html; charset=utf-8" http-equiv=Content-Type>
-<TITLE>Karel Barend Petrus Lewis</TITLE>
+<TITLE>Karel Barend Petrus Lewis (*1935, &#8224;2017)</TITLE>
 <LINK rel=stylesheet type="text/css" href="../../../../style/henning.css" />
 <LINK rel=stylesheet type="text/css" href="../../../../style/databasis.css" />
 <STYLE>
@@ -19,7 +19,7 @@
 <BODY>
 <TABLE border=1 width="100%" borderColorDark=silver borderColorLight=black cellPadding=1 CellSpacing=0 align=center>
 <TR>
-<TH>Karel Barend Petrus Lewis</TH>
+<TH>Karel Barend Petrus Lewis (*1935, &#8224;2017)</TH>
 </TR>
 <TR>
 <TD>
@@ -176,18 +176,18 @@ function ShowSection (sect) {
 </Table>
 <BR>
 E057. Die Lewis gesin, b9.c3.d3.e3.f2.g11. Margaretha Jacoba (Baby) Henning *10-8-1938 en haar man Karel Lewis, met agter hulle kinders, Willie, Retha, Henry en Karel
-<A name="s604l">
+<A name="s604l" class="localLink">
 <BR>
-<SPAN onclick='ShowSection("s604")' class=hand>
+<SPAN onclick='ShowSection("s604")' class="hand">
 <U>
-<font color=blue>Beskou lys van mense op foto</font>
+<font color="blue">Beskou lys van mense op foto</font>
 </U>
 </SPAN>
 </A>
 <SPAN id='s604' style='display:none'>
 <P>
-<A href="../../../persone/8/6/8648p.htm">Karel Barend Petrus Lewis</A><BR/>
-<A href="../../../persone/1/9/1902p.htm">Margaretha Jacoba Henning</A><BR/>
+<A class="localLink" href="../../../persone/8/6/8648p.htm">Karel Barend Petrus Lewis</A><BR/>
+<A class="localLink" href="../../../persone/1/9/1902p.htm">Margaretha Jacoba Henning</A><BR/>
 </P>
 </SPAN>
 <HR>
@@ -196,5 +196,50 @@ E057. Die Lewis gesin, b9.c3.d3.e3.f2.g11. Margaretha Jacoba (Baby) Henning *10-
 </TR>
 </TABLE>
 
+<script language="Javascript">
+function ShowAncestorGeneration1() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','none');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration2() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration3() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration4() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration5() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','');
+}
+function SetAncestorGenerationDisplay(generation, displayValue) {	
+	var generationClass = "ansestorGen" + generation;	
+	var Ancestors = document.getElementsByClassName(generationClass);
+	for(var i = 0; i < Ancestors.length; i++) {
+		Ancestors[i].parentElement.style.display = displayValue;
+	}
+}
+ShowAncestorGeneration2();
+</script>
 </BODY>
 </HTML>

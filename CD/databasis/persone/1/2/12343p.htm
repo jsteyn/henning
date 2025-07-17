@@ -191,15 +191,15 @@ Hy het saam met sy skoonpa 'n algemene handelaar en wolkopersbesigheid op Steyns
 <A name='Voorgeslagte'></A>
 
 <A name='Nageslagte'></A>
-<TABLE border=1 width="100%" borderColorDark=silver borderColorLight=black cellPadding=1 CellSpacing=0 align=center>
+<TABLE border="1" width="100%" borderColorDark="silver" borderColorLight="black" cellPadding="1" CellSpacing="0" align="center">
 <TR>
-<TH>Nageslagte</TH>
+<TH>Nageslagte van Willem Hovy</TH>
 </TR>
 <TR>
 <TD>
-<TABLE width=100% border=0>
+<TABLE width="100%" border="0">
 <TR>
-<TD><B class=maleLink>Willem Hovy</B></TD>
+<TD><B class="maleLink">Willem Hovy</B></TD>
 <TD></TD>
 </TR>
 <TR>
@@ -252,18 +252,18 @@ function ShowSection (sect) {
 </Table>
 <BR>
 Die Hennings en Hovy Algemene Handelaars en Wolkopers besigheid op Steynsburg wat aan Carl Christian Hennings en sy skoonseun Willem Hovy behoort het
-<A name="s1062l">
+<A name="s1062l" class="localLink">
 <BR>
-<SPAN onclick='ShowSection("s1062")' class=hand>
+<SPAN onclick='ShowSection("s1062")' class="hand">
 <U>
-<font color=blue>Beskou lys van mense op foto</font>
+<font color="blue">Beskou lys van mense op foto</font>
 </U>
 </SPAN>
 </A>
 <SPAN id='s1062' style='display:none'>
 <P>
-<A href="../../../persone/1/2/12331p.htm">Carl Christian Hennings</A><BR/>
-<A href="../../../persone/1/2/12343p.htm">Willem Hovy</A><BR/>
+<A class="localLink" href="../../../persone/1/2/12331p.htm">Carl Christian Hennings</A><BR/>
+<A class="localLink" href="../../../persone/1/2/12343p.htm">Willem Hovy</A><BR/>
 </P>
 </SPAN>
 <HR>
@@ -272,5 +272,50 @@ Die Hennings en Hovy Algemene Handelaars en Wolkopers besigheid op Steynsburg wa
 </TR>
 </TABLE>
 
+<script language="Javascript">
+function ShowAncestorGeneration1() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','none');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration2() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','none');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration3() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','none');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration4() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','none');
+}
+function ShowAncestorGeneration5() {	
+	SetAncestorGenerationDisplay('1','');
+	SetAncestorGenerationDisplay('2','');
+	SetAncestorGenerationDisplay('3','');
+	SetAncestorGenerationDisplay('4','');
+	SetAncestorGenerationDisplay('5','');
+}
+function SetAncestorGenerationDisplay(generation, displayValue) {	
+	var generationClass = "ansestorGen" + generation;	
+	var Ancestors = document.getElementsByClassName(generationClass);
+	for(var i = 0; i < Ancestors.length; i++) {
+		Ancestors[i].parentElement.style.display = displayValue;
+	}
+}
+ShowAncestorGeneration2();
+</script>
 </BODY>
 </HTML>
